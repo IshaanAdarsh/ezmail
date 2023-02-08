@@ -6,7 +6,9 @@ We are excited to introduce our new email template website, designed to promote 
 
 We would love for you to check out our website and let us know what you think. We are always looking for feedback and suggestions on how to improve our service.
 
-This repo contains the code used to create our website. 
+<br>https://ezmail.vercel.app<br>
+
+This repo contains the code used to create our website.
 
 <hr>
 
@@ -22,9 +24,9 @@ This repo contains the code used to create our website.
 
 <img src= "https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white">
 
-<img alt="HTML" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> 
+<img alt="HTML" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
 
-<img alt="CSS" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> 
+<img alt="CSS" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
 
 <img alt="Javascript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 
@@ -126,25 +128,25 @@ git push -u origin <your_branch_name>
 
 After the above setup is done follow these steps to a template
 
-**1.** Navigate to ```/src```  and then to the section you want to contribute to, for example ```/prof```
+**1.** Navigate to `/src` and then to the section you want to contribute to, for example `/prof`
 
-**2.** Open the ```data.js```  file. 
+**2.** Open the `data.js` file.
 
-**3.** You will see a javascript object with the fields ```slug``` - the url of the template
+**3.** You will see a javascript object with the fields `slug` - the url of the template
 
-```title``` - the subject if the email
+`title` - the subject if the email
 
-```subject``` - a short summary of the main purpose of the email
+`subject` - a short summary of the main purpose of the email
 
-```content``` - the body of the email
+`content` - the body of the email
 
-> Please note that the ```content``` field can only have a string value and strings can not have new lines. Add a ```\n```  wherever a new line is to added.
+> Please note that the `content` field can only have a string value and strings can not have new lines. Add a `\n` wherever a new line is to added.
 
-> You can also join multiple strings by simply adding a plus sign ``` "hello"+" world"```
+> You can also join multiple strings by simply adding a plus sign ` "hello"+" world"`
 
 **4.** After doing the necessary formatting. Check the working of the changes made and ensure that everything else is also working fine by running it locally.
 
-**5.**  Create a pull request 
+**5.** Create a pull request
 
 ## How to **run project the project**?
 
@@ -184,7 +186,6 @@ npm run dev -- --open
 
 <hr>
 
-
 <h2 align="center"> Project Maintainers & Admins</h2> 
 <div align="center"> 
     <a href="https://github.com/nown1ne">
@@ -200,7 +201,7 @@ npm run dev -- --open
     <p align="center"> Ishaan Adarsh </p>
 </div>
 
-<h2 align="center"> Project Contributors </h2> 
+<h2 align="center"> Project Contributors </h2>
 
 <div align="center">
     <a href="https://github.com/nown1ne/ezmail/graphs/contributors">
