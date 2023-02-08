@@ -13,9 +13,16 @@ border-color: white;
 outline-width: 5px;
 outline-color: rgb(79 70 229);
     }
+
     .scroll::-webkit-scrollbar {
         display: none;
     }
+
+    textarea::-webkit-scrollbar {
+      display: none;
+      -ms-overflow-style: none;  
+      scrollbar-width: none; 
+  }
 
     .tagcloud {
         font-family: 'Poppins', sans-serif;  

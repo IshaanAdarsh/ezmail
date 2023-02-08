@@ -72,16 +72,31 @@ export const posts = [
 		'\n[Your Name]'
 	},
 	{
-		slug: '',
-		title: '',
-		subject:'',
-		content:''
+		slug: 'sorry',
+		title: 'Apology for Negligence in [club event]',
+		subject:'apologize for a mistake that was made during the recent [club event]',
+		content:'Dear Head Coordinators of [club],'+
+		
+		'\n\nI am writing to apologize for the negligence that happened during the [club event]. I am deeply sorry for the inconvenience and frustration that I have caused by [provide details of the mistake].'+
+		
+		'\nI understand the importance of accuracy and fairness in any event, and my mistake has failed to meet those standards. As a representative of the [club]] and someone who was responsible for [assigned duty]], I accept full responsibility for the error.'+
+		
+		'\nI would like to offer my sincere apologies to the [affected entity] and to the entire [club]for bringing down the standards of the [event]. I assure you that I will take the necessary steps to prevent similar incidents from happening in the future.'+
+		
+		'\I hope that you can accept my apology and that we can move forward from this incident. If there is anything that I can do to make amends, please do not hesitate to let me know.'+
+		
+		'\n\nThank you for your understanding.'+
+		
+		'\n\nSincerely,'+
+		
+		'\n[your name]'
 	},
 	{
-		slug: 'advice',
+		slug: 'mentor',
 		title: '',
 		subject:'',
 		content:''
+		
 	},
 	
 ];
