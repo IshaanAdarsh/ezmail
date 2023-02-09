@@ -8,7 +8,7 @@ We would love for you to check out our website and let us know what you think. W
 
 <br>https://ezmail.vercel.app<br>
 
-This repo contains the code used to create our website.
+This repository contains the code used to create our website - "Ezmail".
 
 <hr>
 
