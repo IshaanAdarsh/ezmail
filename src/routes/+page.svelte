@@ -23,7 +23,7 @@
           class="max-w-2xl mb-6 font-light   lg:mb-8 md:text-lg lg:text-xl  text-gray-400"
         >
           We understand the importance of effective email communication, and
-          that's why we've created a platform that makes it easy create, edit,
+          that's why we've created a platform that makes it easy create, edit 
           and send professional emails.
         </p>
         <a
@@ -70,7 +70,7 @@
         <p class="  sm:text-xl  text-gray-400">
           Our website features a library of pre-designed email templates that
           can be customized to fit your needs. Whether you're sending mails to
-          profs, administration, alumni or just about anyone, our templates are
+          Professors, Administration, Alumni or just about anyone, our templates are
           designed to help you communicate effectivly.
         </p>
       </div>
@@ -213,7 +213,7 @@
           </div>
           <h3 class="mb-2 text-xl font-bold text-white">Easy to use</h3>
           <p class="text-gray-400">
-            Our website minimises the time taken to send emails by providing the
+            Our website minimizes the time taken to send emails by providing the
             ability to edit and send emails directly.
           </p>
         </div>
@@ -236,7 +236,9 @@
         </h2>
         <p class="font-light  sm:text-xl text-gray-400">
           We're committed to making email communication easy, and we're always
-          looking for ways to improve our platform. Thank you for choosing our
+          looking for ways to improve our platform. 
+          <br><br>
+          Thank you for choosing our
           website.Our website is completely open source and also open to
           contributions. Check <a
             href="https://github.com/nown1ne/mail"
@@ -299,11 +301,13 @@
           </ul>
         </div>
         <div class="text-center text-gray-400">
+          <a href="href="http://linktr.ee/IshaanAdarsh"">
           <img
             class="mx-auto mb-4 w-36 h-36 md:w-48 md:h-48 rounded-full"
             src="https://pbs.twimg.com/profile_images/1507937776511361028/xPkmvqLZ_400x400.jpg"
             alt="Ishan's Avatar"
           />
+        </a>
           <h3
             class="hover:scale-125 transition mb-1 text-3xl font-bold tracking-tight text-white"
           >

@@ -118,7 +118,7 @@
     We came across a lot of problems while making our project here are a few
     notable ones and how we solved them.<br /><br />
     1. <b>New lines in javascript string: </b><br />
-    All of the templates in our website are stored in easy to edit javasciprt stores
+    All of the templates in our website are stored in easy to edit javascript stores
     and the entire mail is stored as a single string to make using it easier to move
     around the website and edit. So we had to include all of the line breaks inside
     the string itself<br /><br />
@@ -130,7 +130,7 @@
     >
     --- We found that using "\n" would solve our problems but by going the extra
     mile of searching it up we also found out about template literals making storing
-    entire mails as a string really easy making contributing really beginner friednly<br
+    entire mails as a string really easy making contributing really beginner friendly<br
     /><br />
 
     2. <b>Setting the content of the textarea as body of email:</b><br />
@@ -145,9 +145,9 @@
     after a lot of finding we finally found this solution.<br /><br />
 
     3. <b>Adding line breaks into email body: </b><br />
-    Altough it might not even look a problem this was by far the hardest problem
-    to solve. We found multiple solution that didnt work like intented. We tried
-    replacing new lines with br tags but that didnt work.<br /><br />
+    Although it might not even look a problem this was by far the hardest problem
+    to solve. We found multiple solution that didn't work like intended. We tried
+    replacing new lines with br tags but that didn't work.<br /><br />
     <a
       class="underline italic"
       href="https://stackoverflow.com/questions/22765834/insert-a-line-break-in-mailto-body"

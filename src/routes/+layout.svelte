@@ -152,6 +152,6 @@
       href="https://raw.githubusercontent.com/IshaanAdarsh/Email.help/main/ezmail.png"
       class="hover:underline">Ezmail™</a
     >. Made By <a href="https://www.github.com/nown1ne">Abhinav</a> and
-    <a href="">Ishaan</a>.
+    <a href="https://github.com/IshaanAdarsh">Ishaan</a>.
   </span>
 </footer>
