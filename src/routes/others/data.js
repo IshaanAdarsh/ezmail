@@ -93,10 +93,16 @@ export const posts = [
 	},
 	{
 		slug: 'mentor',
-		title: '',
-		subject:'',
-		content:''
-		
+		title: 'Email Request for Alumni Mentors',
+		subject:'Request for Alumni Mentors',
+		content: 'Dear [Name], \n\nI hope this email finds you well. My name is [Your Name], a student at [University/College Name].\n\n'+
+
+		'We are currently looking for alumni mentors to assist us in our personal and professional development. As a mentor, you would have the opportunity to share your experience and expertise, offer guidance, and provide valuable insights that can help us navigate our studies and future career. \n\n'+
+
+		'The commitment is flexible, and you can choose the level of involvement that works best for you. Whether you want to meet with us regularly or simply answer occasional emails, your time and expertise will be greatly appreciated.\n\n'+
+		'If you are interested in becoming an alumni mentor, please let us know and we can arrange a meeting time that works best for you. We understand that your time is valuable and we would be happy to work around your schedule.\n\n'+
+
+		'\n\nThank you for your time and consideration. We look forward to hearing from you soon.\n\nBest regards,\n[Your Name]'
 	},
 	
 ];
