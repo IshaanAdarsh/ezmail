@@ -71,7 +71,7 @@ export const posts = [
 		
 		'\n\nThank you for your time and support.\n\nSincerely,\n[Your Name]'
 		},
-		{
+	{
 		slug: 'alumni',
 		title: 'Email Request for Alumni Mentors',
 		subject:'Request for Alumni Mentors',
