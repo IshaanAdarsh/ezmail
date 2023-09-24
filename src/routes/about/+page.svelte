@@ -106,7 +106,7 @@
   class="mt-2 text-center mb-4 text-4xl font-extrabold tracking-tight leading-none  md:text-4xl lg:text-4xl text-white"
 >
   <span
-    class="mt-6 text-transparent bg-clip-text bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-gray-900 via-purple-900 to-violet-600"
+    id="problems" class="mt-6 text-transparent bg-clip-text bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-gray-900 via-purple-900 to-violet-600"
     >Navigating Problems</span
   >
 </h1>

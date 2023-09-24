@@ -70,5 +70,5 @@ export const posts = [
 		'I have attached my resume and a list of my achievements to this email for your reference. If you are willing to write me a letter of recommendation, please let me know what specific information you need from me and the deadline for the letter.'+
 		
 		'\n\nThank you for your time and support.\n\nSincerely,\n[Your Name]'
-		},
+	}
 ];

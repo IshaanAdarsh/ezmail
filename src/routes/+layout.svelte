@@ -148,7 +148,7 @@
   </div>
   <hr class="my-6  sm:mx-auto border-gray-700 lg:my-8" />
   <span class="block text-md  sm:text-center text-gray-400"
-    >© 2022 <a
+    >© 2023 <a
       href="https://raw.githubusercontent.com/IshaanAdarsh/Email.help/main/ezmail.png"
       class="hover:underline">Ezmail™</a
     >. Made By <a href="https://www.github.com/nown1ne">Abhinav</a> and

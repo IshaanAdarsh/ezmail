@@ -205,8 +205,4 @@ npm run dev -- --open
     <img src="https://contrib.rocks/image?repo=nown1ne/ezmail" />
     </a>
 </div>
-<div align="center"> 
-    <a href="https://github.com/IshaanAdarsh">
-    <img src="https://avatars.githubusercontent.com/u/100434702?v=4" width=100px height=100px />
-    </a>
-</div>
+
