@@ -57,7 +57,7 @@ cd ezmail
 
 ```
 
-git remote add upstream https://github.com/nown1ne/ezmail
+git remote add upstream https://github.com/IshaanAdarsh/ezmail
 
 ```
 
@@ -72,17 +72,13 @@ git remote -v
 **6.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
 
 ```
-
 git pull upstream master
-
 ```
 
 **7.** Create a new branch.
 
 ```
-
 git checkout -b <your_branch_name>
-
 ```
 
 **8.** Perform your desired changes to the code base on that branch.
@@ -153,7 +149,7 @@ Please make sure you have vs code editor installed. If you don't have it, [downl
 
 ```
 
-git clone https://github.com/nown1ne/ezmail
+git clone https://github.com/IshaanAdarsh/ezmail
 
 ```
 
@@ -185,18 +181,19 @@ npm run dev -- --open
 
 <h2 align="center"> Project Maintainers & Admins</h2> 
 <div align="center"> 
+    <a href="https://github.com/IshaanAdarsh">
+    <img src="https://avatars.githubusercontent.com/u/100434702?v=4" width=100px height=100px />
+    </a>
+    <p align="center"> Ishaan Adarsh </p>
+</div>
+<div align="center"> 
     <a href="https://github.com/nown1ne">
     <img src="https://avatars.githubusercontent.com/u/25835195?v=4" width=100px height=100px />
     </a>
     <p align="center"> Abhinav Srinivas </p>
 </div>
 
-<div align="center"> 
-    <a href="https://github.com/IshaanAdarsh">
-    <img src="https://avatars.githubusercontent.com/u/100434702?v=4" width=100px height=100px />
-    </a>
-    <p align="center"> Ishaan Adarsh </p>
-</div>
+
 
 <h2 align="center"> Project Contributors </h2>
 
@@ -204,5 +201,11 @@ npm run dev -- --open
     <a href="https://github.com/nown1ne/ezmail/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=nown1ne/ezmail" />
     </a>
+</div>
+<div align="center"> 
+    <a href="https://github.com/IshaanAdarsh">
+    <img src="https://avatars.githubusercontent.com/u/100434702?v=4" width=100px height=100px />
+    </a>
+    <p align="center"> Ishaan Adarsh </p>
 </div>
 
