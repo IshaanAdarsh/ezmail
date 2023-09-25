@@ -1,6 +1,8 @@
+<a href = "https://github.com/IshaanAdarsh/ezmail">
 <p align="center">
     <img src="https://github.com/IshaanAdarsh/ezmail/assets/100434702/fa856830-9d12-4ae8-b445-630b7d8ac209" alt="ezmail" width="400"/>
 </p>
+</a>
 
 <h1 align="center" size = ""> About Ezmail </h1>
 
