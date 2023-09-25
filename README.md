@@ -15,19 +15,17 @@ This repository contains the code used to create our website - "Ezmail".
 
 <div align="left">
 
-<img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
+<img src= "https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white">
 
 <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white">
-
-<img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white">
-
-<img src= "https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white">
 
 <img alt="HTML" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
 
 <img alt="CSS" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
 
 <img alt="Javascript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+
+<img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white">
 
 </div>
 
@@ -200,14 +198,8 @@ npm run dev -- --open
 <h2 align="center"> Project Contributors </h2>
 
 <div align="center">
-    <a href="https://github.com/nown1ne/ezmail/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=nown1ne/ezmail" />
+    <a href="https://github.com/IshaanAdarsh/ezmail/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=IshaanAdarsh/ezmail" />
     </a>
-</div>
-<div align="center"> 
-    <a href="https://github.com/IshaanAdarsh">
-    <img src="https://avatars.githubusercontent.com/u/100434702?v=4" width=100px height=100px />
-    </a>
-    <p align="center"> Ishaan Adarsh </p>
 </div>
 
