@@ -1,6 +1,8 @@
-# Ezmail
+<p align="center">
+    <img src="https://github.com/IshaanAdarsh/ezmail/assets/100434702/fa856830-9d12-4ae8-b445-630b7d8ac209" alt="ezmail" width="400"/>
+</p>
 
-## About Ezmail
+<h1 align="center" size = ""> About Ezmail </h1>
 
 We are excited to introduce our new email template website, designed to promote a culture of effective and efficient communication among college students. The website offers a wide range of templates for various scenarios, such as requesting information from professors, scheduling meetings, and networking with professionals.
 
