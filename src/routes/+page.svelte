@@ -262,7 +262,7 @@
           >
             <a href="https://linktr.ee/abhinavsrinivas">Abhinav Srinivas</a>
           </h3>
-          <p class="text-lg">Technical Lead</p>
+          <p class="text-lg">Lead Developer</p>
           <ul class="flex justify-center mt-4 space-x-4">
             <li class="hover:scale-125 transition">
               <a
@@ -305,7 +305,7 @@
             <img
               class="mx-auto mb-4 w-36 h-36 md:w-48 md:h-48 rounded-full"
               src="https://pbs.twimg.com/profile_images/1507937776511361028/xPkmvqLZ_400x400.jpg"
-              alt="Ishan's Avatar"
+              alt="Ishaan's Avatar"
             />
           </a>
           <h3
@@ -313,7 +313,7 @@
           >
             <a href="http://linktr.ee/IshaanAdarsh">Ishaan Adarsh</a>
           </h3>
-          <p class="text-lg">Design Lead</p>
+          <p class="text-lg">Technical Manager</p>
           <ul class="flex justify-center mt-4 space-x-4">
             <li class="hover:scale-125 transition">
               <a
