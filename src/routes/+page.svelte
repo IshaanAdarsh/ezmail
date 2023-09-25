@@ -241,7 +241,7 @@
           Thank you for choosing our website.Our website is completely open source
           and also open to contributions. Check
           <a
-            href="https://github.com/nown1ne/mail"
+            href="https://github.com/IshaanAdarsh/ezmail"
             class="underline underline-offset-2">github</a
           > for contributing. ☮
         </p>
