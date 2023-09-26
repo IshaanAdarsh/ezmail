@@ -56,7 +56,7 @@
       >
         <li>
           <a
-            href="/pro"
+            href="/prof"
             class=" transition hover:text-primary-500 hover:scale-110 block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent md:border-0  md:p-0  text-gray-400   hover:bg-gray-700 md: hover:bg-transparent"
             >To Professor</a
           >
@@ -70,14 +70,14 @@
         </li>
         <li>
           <a
-            href="/others-list"
+            href="/others"
             class="transition hover:text-primary-500 hover:scale-110 block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent md:border-0 md:p-0  text-gray-400   hover:bg-gray-700 md: hover:bg-transparent"
             >Alumni and Strangers</a
           >
         </li>
         <li>
           <a
-            href="/abt"
+            href="/about"
             class=" transition hover:text-primary-500 hover:scale-110 block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent md:border-0  md:p-0  text-gray-400   hover:bg-gray-700 md: hover:bg-transparent"
             >About</a
           >
@@ -129,7 +129,7 @@
       class="px-2 flex flex-wrap items-center mb-6 text-lg underline underline-offset-2  sm:mb-0 text-gray-400"
     >
       <li>
-        <a href="professor" class="mr-4 hover:underline md:mr-6 ">To Professor</a>
+        <a href="prof" class="mr-4 hover:underline md:mr-6 ">To Professor</a>
       </li>
       <li>
         <a href="admin" class="mr-4 hover:underline md:mr-6"
