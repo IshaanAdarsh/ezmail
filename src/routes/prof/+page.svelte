@@ -3,7 +3,7 @@
 </script>
 
 <div class="min-h-screen sm:mt-16 mt-5 ">
-    <grid class="grid grid-cols-3 gap-8 content-start auto-cols-auto auto-rows-auto justify-center p-4 ">
+    <grid class="grid sm:grid-cols-3 grid-cols-1 gap-5 md:gap-8 content-start auto-cols-auto auto-rows-auto justify-center p-4 ">
         {#each data.summaries as {slug, title, subject}}
         <div class="w-5/6 shadow-sm shadow-primary-500  p-6 mx-auto border  rounded-lg  bg-gray-800 border-gray-700">
             <a href="/prof/{slug}">
