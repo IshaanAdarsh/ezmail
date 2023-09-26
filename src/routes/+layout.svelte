@@ -117,7 +117,7 @@
 </Trans>
 
 <footer class="mt-5 p-8 rounded-lg shadow md:px-6 md:py-8 bg-gray-900">
-  <div class="sm:flex sm:items-center sm:justify-between">
+  <div class="sm:flex">
     <a href="/" class="flex items-center mb-4 sm:mb-0">
       <img
         src="https://raw.githubusercontent.com/IshaanAdarsh/Email.help/main/ezmail.png"
