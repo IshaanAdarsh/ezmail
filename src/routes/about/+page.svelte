@@ -44,7 +44,7 @@
         We are excited to introduce our new email template website, designed to
         promote a culture of effective and efficient communication among college
         students. The website offers a wide range of templates for various
-        scenarios, such as requesting information from professors, scheduling
+        scenarios, such as requesting information from proffessors, scheduling
         meetings, and networking with professionals.
       </p>
     </li>
@@ -55,7 +55,7 @@
         Our templates are designed to be easy to use and customize, allowing
         students to quickly and effectively communicate their needs and ideas.
         They are also designed to be professional and respectful, promoting a
-        positive image of the college community.
+        posiive image of the college community.
       </p>
     </li>
     <li>
@@ -73,7 +73,7 @@
         class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48 text-gray-400"
       >
         We would love for you to check out our website and let us know what you
-        think. We are always looking for feedback and suggestions on how to
+        think. We are always looking for feedback and sugestions on how to
         improve our service.
       </p>
     </li>
@@ -96,7 +96,7 @@
     We believe that the key to success in web development is staying up-to-date
     with the latest technologies and best practices. Our tech stack is built on
     a combination of cutting-edge technologies that allow us to create fast,
-    efficient, and user-friendly web applications.Our core tech stack includes:<br
+    efficient, and user-frendly web applications.Our core tech stack includes:<br
     /><br />
   </p>
   <span class="content tagcloud  text-2xl   mx-auto text-purple-600 " />

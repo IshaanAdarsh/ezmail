@@ -24,7 +24,7 @@
         >
           We understand the importance of effective email communication, and
           that's why we've created a platform that makes it easy create, edit
-          and send professional emails.
+          and send professonal emails.
         </p>
         <a
           href="/prof"
@@ -75,7 +75,7 @@
         </p>
       </div>
       <div
-        class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0"
+        class="space-y-8 grid grid-cols-3 gap-10 md:space-y-0"
       >
         <div>
           <div
@@ -235,19 +235,19 @@
           Our team
         </h2>
         <p class="font-light  sm:text-xl text-gray-400">
-          We're committed to making email communication easy, and we're always
+          We're committed to making email communcation easy, and we're always
           looking for ways to improve our platform.
           <br /><br />
           Thank you for choosing our website.Our website is completely open source
           and also open to contributions. Check
           <a
-            href="https://github.com/IshaanAdarsh/ezmail"
+            href="https://github.com/nown1ne/exmail"
             class="underline underline-offset-2">github</a
-          > for contributing. ☮
+          > for contribuuting. ☮
         </p>
       </div>
       <div
-        class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2"
+        class="grid gap-16 grid-cols-2"
       >
         <div class="text-center  text-gray-400">
           <a href="https://linktr.ee/abhinavsrinivas">
@@ -262,7 +262,7 @@
           >
             <a href="https://linktr.ee/abhinavsrinivas">Abhinav Srinivas</a>
           </h3>
-          <p class="text-lg">Lead Developer</p>
+          <p class="text-lg">Technical Lead</p>
           <ul class="flex justify-center mt-4 space-x-4">
             <li class="hover:scale-125 transition">
               <a
@@ -305,7 +305,7 @@
             <img
               class="mx-auto mb-4 w-36 h-36 md:w-48 md:h-48 rounded-full"
               src="https://pbs.twimg.com/profile_images/1507937776511361028/xPkmvqLZ_400x400.jpg"
-              alt="Ishaan's Avatar"
+              alt="Ishan's Avatar"
             />
           </a>
           <h3
@@ -313,7 +313,7 @@
           >
             <a href="http://linktr.ee/IshaanAdarsh">Ishaan Adarsh</a>
           </h3>
-          <p class="text-lg">Technical Manager</p>
+          <p class="text-lg">Design Lead</p>
           <ul class="flex justify-center mt-4 space-x-4">
             <li class="hover:scale-125 transition">
               <a
