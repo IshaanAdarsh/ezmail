@@ -56,7 +56,7 @@
       >
         <li>
           <a
-            href="/pro"
+            href="/prof"
             class=" transition hover:text-primary-500 hover:scale-110 block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent md:border-0  md:p-0  text-gray-400   hover:bg-gray-700 md: hover:bg-transparent"
             >To Professor</a
           >
