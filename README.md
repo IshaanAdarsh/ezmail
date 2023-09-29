@@ -39,45 +39,37 @@ If you're not comfortable with the command line, [here are tutorials using GUI t
 
 **2.** Clone your forked copy of the project.
 
-```
-
+```shell
 git clone https://github.com/<your_name>/ezmail.git
-
 ```
 
 **3.** Navigate to the project directory :file_folder: .
 
-```
-
+```shell
 cd ezmail
-
 ```
 
 **4.** Add a reference(remote) to the original repository.
 
-```
-
+```shell
 git remote add upstream https://github.com/IshaanAdarsh/ezmail
-
 ```
 
 **5.** Check the remotes for this repository.
 
-```
-
+```shell
 git remote -v
-
 ```
 
 **6.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
 
-```
-git pull upstream master
+```shell
+git pull upstream main
 ```
 
 **7.** Create a new branch.
 
-```
+```shell
 git checkout -b <your_branch_name>
 ```
 
@@ -85,26 +77,20 @@ git checkout -b <your_branch_name>
 
 **9.** Track your changes :heavy_check_mark: .
 
-```
-
+```shell
 git add .
-
 ```
 
 **10.** Commit your changes.
 
-```
-
+```shell
 git commit -m "Relevant message"
-
 ```
 
 **11.** Push the committed changes in your feature branch to your remote repo.
 
-```
-
+```shell
 git push -u origin <your_branch_name>
-
 ```
 
 **12.** To create a pull request, click on `compare and pull requests. Please ensure you compare your feature branch to the desired branch of the repository you are supposed to make a PR to.
@@ -147,34 +133,26 @@ Please make sure you have vs code editor installed. If you don't have it, [downl
 
 **1.** Open VS code and clone the repo .
 
-```
-
+```shell
 git clone https://github.com/IshaanAdarsh/ezmail
-
 ```
 
 **2.** Open all files in vs code.
 
-```
-
+```shell
 cd ezmail
-
 ```
 
 **3.** Install dependencies
 
-```
-
+```shell
 npm i
-
 ```
 
 **4.** Start development server
 
-```
-
+```shell
 npm run dev -- --open
-
 ```
 
 <hr>
