@@ -127,7 +127,7 @@ After the above setup is done follow these steps to a template
 
 **5.** Create a pull request
 
-## How to **run project the project**?
+## How to **run the project**?
 
 Please make sure you have vs code editor installed. If you don't have it, [download it](https://code.visualstudio.com/download).
 
