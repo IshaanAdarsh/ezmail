@@ -1,13 +1,13 @@
 export const posts = [
 	{
-		slug: 'bonafide',
-		title: 'Request for Bonafide Certificate',
-		subject:'request a bonafide certificate from [College/University Name]',
+		slug: 'bona-fide',
+		title: 'Request for Bona fide Certificate',
+		subject:'request a bona fide certificate from [College/University Name]',
 		content: 'Dear [College/University],'+
 
-		'\n\nI am writing to request a bonafide certificate from [College/University Name] for the purpose of [reason for certificate, such as applying for a scholarship or visa]. I am a student currently enrolled in [your current degree and major] and my student ID number is [student ID number].'+
+		'\n\nI am writing to request a bona fide certificate from [College/University Name] for the purpose of [reason for certificate, such as applying for a scholarship or visa]. I am a student currently enrolled in [your current degree and major] and my student ID number is [student ID number].'+
 		
-		'\nI would greatly appreciate it if you could provide me with a bonafide certificate that confirms my enrollment and student status at [College/University Name]. I would also like to request that the certificate include my full name, student ID number, degree and major, and the duration of my enrollment.'+
+		'\nI would greatly appreciate it if you could provide me with a bona fide certificate that confirms my enrollment and student status at [College/University Name]. I would also like to request that the certificate include my full name, student ID number, degree and major, and the duration of my enrollment.'+
 		
 		'\nPlease let me know the procedure for obtaining the certificate and any necessary documents I need to submit. I would be happy to provide any additional information that may be required.'+
 		
@@ -35,7 +35,7 @@ export const posts = [
 	},
 
 	{
-		slug: 'resouces',
+		slug: 'resources',
 		title: 'About a lack of resources or support',
 		subject:'express my concern about the lack of resources',
 		content:
