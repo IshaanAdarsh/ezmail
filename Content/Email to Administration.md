@@ -77,3 +77,48 @@ I look forward to your prompt response. Thank you for your time and consideratio
 
 Sincerely, 
 [Your Name].
+
+-Letter to Submit the anti-ragging form to the administration.
+
+
+[Your Name]
+[Your Address]
+[City, State, Zip Code]
+[Your Email Address]
+[Your Contact Number]
+[Date]
+
+To,
+The Administration,
+[University/College Name],
+[University/College Address],
+[City, State, Zip Code]
+
+Subject: Submission of Anti-Ragging Form
+
+Dear Sir/Madam,
+
+I am writing to formally submit my Anti-Ragging Form as a mandatory requirement of the institution for the academic year [Year]. I understand the importance of ensuring a safe and inclusive environment for all students, and I fully support the institution's efforts to combat ragging and related activities.
+
+Here are the details of my submission:
+
+Full Name: [Your Full Name]
+Student ID/Enrollment Number: [Your Student ID/Enrollment Number]
+Course: [Your Course Name]
+Batch/Year: [Your Batch/Year]
+Contact Number: [Your Contact Number]
+
+I hereby declare that I am fully aware of the rules and regulations regarding anti-ragging measures implemented by the institution. I pledge to abide by these rules and cooperate with the authorities to prevent any form of ragging within the campus. I understand the serious consequences that can result from engaging in or abetting any ragging activity, and I am committed to maintaining a respectful and harassment-free environment.
+
+I have read and understood the Anti-Ragging Policy of the institution, and I agree to comply with it during my tenure at [University/College Name].
+
+I have attached all the necessary documents and information as required by the institution for the completion of this form. If there are any additional documents or actions required from my end, please do not hesitate to inform me, and I will promptly provide the necessary information.
+
+I appreciate the institution's commitment to the safety and well-being of its students, and I am confident that together we can ensure a positive and nurturing educational experience for everyone.
+
+Thank you for your attention to this matter. Please acknowledge the receipt of my Anti-Ragging Form, and if there are any further steps or actions required from my side, kindly inform me at the earliest convenience.
+
+Sincerely,
+
+[Your Full Name]
+[Your Student ID/Enrollment Number]
