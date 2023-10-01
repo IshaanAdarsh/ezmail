@@ -75,11 +75,11 @@
         </p>
       </div>
       <div
-      class="space-y-8 grid grid-cols-3 gap-10 md:space-y-0"
+      class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 md:space-y-0"
       >
         <div>
           <div
-            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full   lg:h-12 lg:w-12  bg-primary-900"
+            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full lg:h-12 lg:w-12  bg-primary-900"
           >
             <svg
               class="w-5 h-5   lg:w-6 lg:h-6  text-primary-300"
@@ -96,14 +96,14 @@
             </svg>
           </div>
           <h3 class="mb-2 text-xl font-bold text-white">Lighting Fast</h3>
-          <p class="   text-gray-400">
+          <p class="text-gray-400">
             Our website is built upon the latest in web technology for
             lightning-fast speeds while also being mobile reponsive
           </p>
         </div>
         <div>
           <div
-            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full   lg:h-12 lg:w-12  bg-primary-900"
+            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full lg:h-12 lg:w-12  bg-primary-900"
           >
             <svg
               class="w-5 h-5   lg:w-6 lg:h-6  text-primary-300"
@@ -116,7 +116,7 @@
             >
           </div>
           <h3 class="mb-2 text-xl font-bold text-white">Professional</h3>
-          <p class="   text-gray-400">
+          <p class="text-gray-400">
             Writing professional emails can make a good impression on your
             colleagues and clients and can help you establish credibility and
             authority in your field.
@@ -124,7 +124,7 @@
         </div>
         <div>
           <div
-            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full   lg:h-12 lg:w-12 bg-primary-900"
+            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full lg:h-12 lg:w-12 bg-primary-900"
           >
             <svg
               class="w-5 h-5   lg:w-6 lg:h-6  text-primary-300"
@@ -169,7 +169,7 @@
         </div>
         <div>
           <div
-            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full  lg:h-12 lg:w-12 bg-primary-900"
+            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full lg:h-12 lg:w-12 bg-primary-900"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -196,7 +196,7 @@
         </div>
         <div>
           <div
-            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full  lg:h-12 lg:w-12 bg-primary-900"
+            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full lg:h-12 lg:w-12 bg-primary-900"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
