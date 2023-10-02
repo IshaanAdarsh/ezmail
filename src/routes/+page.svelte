@@ -24,7 +24,7 @@
         >
           We understand the importance of effective email communication, and
           that's why we've created a platform that makes it easy create, edit
-          and send professonal emails.
+          and send professional emails.
         </p>
         <a
           href="/prof"
@@ -71,7 +71,7 @@
           Our website features a library of pre-designed email templates that
           can be customized to fit your needs. Whether you're sending mails to
           Professors, Administration, Alumni or just about anyone, our templates
-          are designed to help you communicate effectivly.
+          are designed to help you communicate effectively.
         </p>
       </div>
       <div
@@ -98,7 +98,7 @@
           <h3 class="mb-2 text-xl font-bold text-white">Lighting Fast</h3>
           <p class="text-gray-400">
             Our website is built upon the latest in web technology for
-            lightning-fast speeds while also being mobile reponsive
+            lightning-fast speeds while also being mobile responsive
           </p>
         </div>
         <div>
@@ -235,7 +235,7 @@
           Our team
         </h2>
         <p class="font-light  sm:text-xl text-gray-400">
-          We're committed to making email communcation easy, and we're always
+          We're committed to making email communication easy, and we're always
           looking for ways to improve our platform.
           <br /><br />
           Thank you for choosing our website.Our website is completely open source
@@ -243,7 +243,7 @@
           <a
             href="https://github.com/IshaanAdarsh/ezmail"
             class="underline underline-offset-2">github</a
-          > for contribuuting. ☮
+          > for contributing. ☮
         </p>
       </div>
       <div

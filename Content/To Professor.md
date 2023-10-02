@@ -16,7 +16,7 @@ Hoping for a positive response,
 
 2. How to write an excuse email to professor:
 
-Subject: Boogie boba 
+Subject: Apology regarding [issue]
 
 Dear Professor (name), 
 

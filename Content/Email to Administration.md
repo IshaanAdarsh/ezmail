@@ -49,11 +49,11 @@ Sincerely,
 [Your Name].
 
 -Business Letters
-1. Asking for a bonafide certificate
+1. Asking for a bona fide certificate
 
-Subject: Bonafide certificate for taking part in a competition.
+Subject: Bona fide certificate for taking part in a competition.
 
-Dear Sir, I am applying for(reason). The application requires a bonafide certificate, certifying that I'm currently a (nth)-year student at (College). I would be really grateful to you if you could help me out with this predicament.
+Dear Sir, I am applying for(reason). The application requires a bona fide certificate, certifying that I'm currently a (nth)-year student at (College). I would be really grateful to you if you could help me out with this predicament.
 
 Thank you.
 Yours sincerely,
