@@ -7,7 +7,9 @@
   };
   import { clickOutside } from "../click_outside.js";
   import Trans from "../components/trans.svelte";
-  import { fade } from "svelte/transition";
+  import { fly } from "svelte/transition";
+  
+	import { quintOut } from 'svelte/easing';
   import { page } from "$app/stores";
 </script>
 
@@ -89,24 +91,37 @@
 
 {#if open === true}
   <div
-    transition:fade
-    class="absolute z-50 rounded-lg shadow-md right-10 top-10 margin-1 border shadow-primary-700  bg-gray-900 border-primary-700 text-white margin-auto"
+  transition:fly={{ delay: 100, duration: 500, x: 600, y:-1000, opacity: 0.5, easing: quintOut  }}
+	
+    class="z-50 md:hidden fixed flex-col items-center bottom-0  flex w-full backdrop-filter left-0 backdrop-blur-2xl top-0 bg-opacity-97 shadow-lg  h-screen border shadow-primary-700  bg-gray-900 border-primary-700 text-white margin-auto"
     use:clickOutside
     on:outclick={toggle}
-    on:click={toggle}
   >
-    <div class="flex flex-col gap-1 justify-center content-center  text-2xl">
-      <div class="mb-2 hover:text-white text-primary-500 p-5">
-        <a href="/prof">To Professor</a>
+  <div class="flex justify-around items-center w-full pl-8">
+
+    <a href="/" on:click={toggle}>
+      <img
+        src="https://github.com/IshaanAdarsh/ezmail/assets/100434702/fa856830-9d12-4ae8-b445-630b7d8ac209"
+        class="h-16 inline transition hover:scale-110 "
+        alt="Flowbite Logo"
+      />
+    </a>
+    <button on:click={toggle} class='p-6 ml-auto'>
+      <svg stroke="#6366F1" fill="none" stroke-width="0.5" viewBox="0 0 15 15" height="2em" width="2em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.8536 2.85355C13.0488 2.65829 13.0488 2.34171 12.8536 2.14645C12.6583 1.95118 12.3417 1.95118 12.1464 2.14645L7.5 6.79289L2.85355 2.14645C2.65829 1.95118 2.34171 1.95118 2.14645 2.14645C1.95118 2.34171 1.95118 2.65829 2.14645 2.85355L6.79289 7.5L2.14645 12.1464C1.95118 12.3417 1.95118 12.6583 2.14645 12.8536C2.34171 13.0488 2.65829 13.0488 2.85355 12.8536L7.5 8.20711L12.1464 12.8536C12.3417 13.0488 12.6583 13.0488 12.8536 12.8536C13.0488 12.6583 13.0488 12.3417 12.8536 12.1464L8.20711 7.5L12.8536 2.85355Z" fill="#6366F1"></path></svg>
+    </button>
+  </div>
+    <div class="flex flex-col gap-1 justify-center text-3xl mt-24 w-full items-center">
+      <div class="mb-2 hover:text-white text-primary-500 p-5 shadow-primary-700 hover:scale-110 ">
+        <a href="/prof" on:click={toggle}>To Professor</a>
       </div>
-      <div class="mb-2 hover:text-white text-primary-500 p-5">
-        <a href="/admin">To Administration</a>
+      <div class="mb-2 hover:text-white text-primary-500 p-5 shadow-primary-700 hover:scale-110 ">
+        <a href="/admin" on:click={toggle}>To Administration</a>
       </div>
-      <div class="mb-2 hover:text-white text-primary-500 p-5">
-        <a href="/others">To Alumni</a>
+      <div class="mb-2 hover:text-white text-primary-500 p-5 shadow-primary-700 hover:scale-110 ">
+        <a href="/others" on:click={toggle}>To Alumni</a>
       </div>
-      <div class="mb-1 hover:text-white text-primary-500 p-5">
-        <a href="/about">About</a>
+      <div class="mb-1 hover:text-white text-primary-500 p-5 shadow-primary-700 hover:scale-110 ">
+        <a href="/about" on:click={toggle}>About</a>
       </div>
     </div>
   </div>
