@@ -126,3 +126,30 @@ Yours Sincerely,
 [Your Branch]
 [Your Semester]
 [Roll Number]
+
+9. Write a email to a professor to Request for Attendance for Late Registration.
+
+   Subject: Request for Attendance for Late Registration
+
+Dear Professor [Professor's Last Name],
+
+I hope this message finds you well. I am writing to request your assistance in updating my attendance records to reflect my late registration for [Course Name and Number]. 
+
+Due to unforeseen circumstances, I had to complete my registration for this course after the official add/drop period. Consequently, my attendance for the initial classes was not recorded, although I have been attending regularly since my registration was finalized.
+
+I understand the importance of maintaining accurate attendance records, and I want to ensure that my commitment to this course is properly reflected. I kindly request that you please update my attendance records to reflect my actual attendance starting from [date of your late registration].
+
+I have attached the proof of my late registration for your reference. If there is any additional information or documentation required, please do not hesitate to let me know.
+
+I appreciate your understanding and assistance in this matter. Accurate attendance records are crucial to my academic progress, and I want to ensure that they reflect my true commitment to this course.
+
+Thank you for your attention to this request. I look forward to your response.
+
+Sincerely,
+
+[Your Full Name]
+[Your Student ID]
+[Your Email Address]
+[Your Phone Number]
+[Attachment: Proof of Late Registration]
+
