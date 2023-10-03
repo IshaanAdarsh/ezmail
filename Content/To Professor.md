@@ -126,3 +126,28 @@ Yours Sincerely,
 [Your Branch]
 [Your Semester]
 [Roll Number]
+
+10.Write a email to a professor  to request for attendence of a medical leave.
+
+Subject: Request for Medical Leave Attendance Confirmation
+
+Dear Professor [Professor's Last Name],
+
+I hope this email finds you well. I am writing to request your assistance in providing attendance confirmation for the classes I missed during my recent medical leave.
+
+Due to a medical condition, I was unable to attend classes from [start date] to [end date], as per my doctor's recommendation. During this period, I diligently followed the university's medical leave policy and submitted all the required documentation to the appropriate department.
+
+In order to ensure that my academic record accurately reflects my situation, I kindly request that you confirm my medical leave and specify the dates of my absence from your class. This confirmation will be invaluable in helping me make up for the missed coursework and assessments.
+
+I understand that your schedule may be busy, and I greatly appreciate your assistance in this matter. If there are any specific forms or procedures you would like me to follow, please let me know, and I will promptly provide the necessary information.
+
+Thank you for your understanding and support during this challenging time. Your cooperation will greatly assist me in catching up on the material and staying on track with my studies.
+
+I look forward to your response, and please do not hesitate to contact me if you require any further information.
+
+Sincerely,
+
+[Your Full Name]
+[Your Student ID]
+[Your Email Address]
+[Your Phone Number]
