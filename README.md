@@ -199,7 +199,7 @@ npm run dev -- --open
 
 <div align="center">
     <a href="https://github.com/IshaanAdarsh/ezmail/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=IshaanAdarsh/ezmail" />
-    </a>
+  <img src="https://contrib.rocks/image?repo=IshaanAdarsh/ezmail" />
+</a>
 </div>
 
