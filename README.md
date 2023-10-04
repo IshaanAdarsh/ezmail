@@ -198,7 +198,7 @@ npm run dev -- --open
 <h2 align="center"> Project Contributors </h2>
 
 <div align="center">
-    <a href="https://github.com/IshaanAdarsh/ezmail/graphs/contributors">
+<a href="https://github.com/IshaanAdarsh/ezmail/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=IshaanAdarsh/ezmail" />
 </a>
 </div>
