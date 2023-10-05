@@ -111,19 +111,24 @@
     </button>
   </div>
 
-    <div class="flex flex-col gap-1 justify-center text-2xl mt-24 w-full items-center">
-      <div class="mb-2 hover:text-primary-500 text-white p-5 shadow-primary-700 hover:scale-110 ">
+    <div class="flex flex-col gap-10 justify-center text-2xl mt-24 w-full items-center">
+      <div transition:fly={{ delay: 100, duration: 1200, x: 900, y:0, opacity: 0.3, easing: quintOut  }} 
+      class="mb-2 text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2  ">
         <a href="/prof" on:click={toggle}>To Professor</a>
       </div>
-      <div class="mb-2 hover:text-primary-500 text-white p-5 shadow-primary-700 hover:scale-110 ">
+      <div transition:fly={{ delay: 100, duration: 1200, x: 900, y:0, opacity: 0.3, easing: quintOut  }} 
+      class="mb-2 text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2  ">
         <a href="/admin" on:click={toggle}>To Administration</a>
       </div>
-      <div class="mb-2 hover:text-primary-500 text-white p-5 shadow-primary-700 hover:scale-110 ">
+      <div transition:fly={{ delay: 100, duration: 1200, x: 900, y:0, opacity: 0.3, easing: quintOut  }} 
+      class="mb-2 text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2  ">
         <a href="/others" on:click={toggle}>To Alumni</a>
       </div>
-      <div class="mb-1 hover:text-primary-500 text-white p-5 shadow-primary-700 hover:scale-110 ">
+      <div transition:fly={{ delay: 100, duration: 1200, x: 900, y:0, opacity: 0.3, easing: quintOut  }}
+      class="mb-2 text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2  ">
         <a href="/about" on:click={toggle}>About</a>
       </div>
+
     </div>
     
   </div>
