@@ -24,6 +24,7 @@
 		"@playwright/test": "^1.38.1",
 		"lighthouse": "^11.1.0",
 		"playwright": "^1.38.1",
+		"puppeteer": "^21.3.8",
 		"TagCloud": "^2.3.2"
 	}
 }
