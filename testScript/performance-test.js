@@ -2,10 +2,8 @@ import { chromium } from 'playwright';
 import lighthouse from 'lighthouse';
 import { URL } from 'url';
 
-// Define the URL of the website to test
 const websiteUrl = 'ezmail-home.vercel.app/';
 
-// Define the list of browsers you want to test
 const browsers = ['chromium', 'firefox', 'webkit'];
 
 (async () => {
