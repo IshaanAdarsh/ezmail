@@ -1,6 +1,6 @@
-const { chromium } = require('playwright');
-const lighthouse = require('lighthouse');
-const { URL } = require('url');
+import { chromium } from 'playwright';
+import lighthouse from 'lighthouse';
+import { URL } from 'url';
 
 // Define the URL of the website to test
 const websiteUrl = 'ezmail-home.vercel.app/';
