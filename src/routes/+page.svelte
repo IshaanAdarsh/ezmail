@@ -247,7 +247,7 @@
         </p>
       </div>
       <div
-      class="grid gap-16 grid-cols-2"
+      class="grid gap-16 md:grid-cols-2"
       >
         <div class="text-center  text-gray-400">
           <a href="https://linktr.ee/abhinavsrinivas">
