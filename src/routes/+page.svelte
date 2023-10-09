@@ -20,7 +20,7 @@
           Experience the ease of Ezmail™
         </h1>
         <p
-          class="max-w-2xl mb-6 font-light   lg:mb-8 md:text-lg lg:text-xl  text-gray-400"
+          class="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl  text-gray-400"
         >
           We understand the importance of effective email communication, and
           that's why we've created a platform that makes it easy create, edit
@@ -247,7 +247,7 @@
         </p>
       </div>
       <div
-      class="grid gap-16 grid-cols-2"
+      class="grid gap-16 md:grid-cols-2"
       >
         <div class="text-center  text-gray-400">
           <a href="https://linktr.ee/abhinavsrinivas">
