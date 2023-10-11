@@ -18,10 +18,6 @@ outline-color: rgb(79 70 229);
         display: none;
     }
 
-    a:hover{
-        background-color:aqua;
-    }
-
     textarea::-webkit-scrollbar {
       display: none;
       -ms-overflow-style: none;  
