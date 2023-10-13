@@ -2,6 +2,9 @@
   import TagCloud from "TagCloud";
   const container = ".content";
   import { onMount } from "svelte";
+  import Carousel from 'svelte-carousel';
+  import { Octokit } from "octokit";
+
   const texts = [
     "3D",
     "TagCloud",
@@ -18,11 +21,22 @@
     maxSpeed: "fast",
   };
 
+  let ss;
+
+  const octokit = new Octokit();
+
+  let contributors = [];
+
+  octokit
+    .request("GET /repos/IshaanAdarsh/ezmail/contributors")
+    .then((res) => {contributors = [...res.data]})
+
   onMount(() => {
     TagCloud(container, texts, options);
   });
 </script>
 
+<svelte:window bind:innerWidth={ss} />
 <h1
   class="text-center mb-4 text-6xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl text-white"
 >
@@ -101,7 +115,108 @@
   </p>
   <span class="content tagcloud  text-2xl   mx-auto text-purple-600 " />
 </div>
+
 <br /><br /><br />
+
+{#if contributors.length}
+  <h1
+  class="my-2 text-center text-4xl font-extrabold tracking-tight leading-none  md:text-4xl lg:text-4xl text-white"
+  >
+    <span
+    id="problems" class="mt-6 text-transparent bg-clip-text bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-gray-900 via-purple-900 to-violet-600"
+    >
+      Contributors
+    </span>
+  </h1>
+
+  {#if ss < 768}
+    <Carousel
+    autoplayDuration={2500}
+    >
+      {#each contributors as contributor}
+        <div
+        class="flex items-center justify-center my-8"
+        >
+          <a
+          href={contributor.html_url} 
+          class="text-[#00acee]  hover:text-white flex flex-col items-center justify-center"
+          >
+            <img src={contributor.avatar_url} class="rounded-full h-40 w-40" alt="avatar" />
+            <h3>{contributor.login}</h3>
+          </a>
+        </div>
+      {/each}
+    </Carousel>
+  {:else if ss < 1024}
+    <div class="mx-16">
+      <Carousel
+      particlesToShow={2}
+      autoplayDuration={2500}
+      >
+        {#each contributors as contributor}
+          <div
+          class="flex items-center justify-center my-8"
+          >
+            <a
+            href={contributor.html_url} 
+            class="text-[#00acee]  hover:text-white flex flex-col items-center justify-center"
+            >
+              <img src={contributor.avatar_url} class="rounded-full h-40 w-40" alt="avatar" />
+              <h3>{contributor.login}</h3>
+            </a>
+          </div>
+        {/each}
+      </Carousel>
+    </div>
+  {:else if ss < 1440}
+    <div class="mx-20">
+      <Carousel
+      particlesToShow={3}
+      particlesToScroll={2}
+      autoplayDuration={2500}
+      >
+        {#each contributors as contributor}
+          <div
+          class="flex items-center justify-center my-8"
+          >
+            <a
+            href={contributor.html_url} 
+            class="text-[#00acee]  hover:text-white flex flex-col items-center justify-center"
+            >
+              <img src={contributor.avatar_url} class="rounded-full h-40 w-40" alt="avatar" />
+              <h3>{contributor.login}</h3>
+            </a>
+          </div>
+        {/each}
+      </Carousel>
+    </div>
+  {:else}
+    <div class="mx-44">
+      <Carousel
+      particlesToShow={4}
+      particlesToScroll={2}
+      autoplayDuration={2500}
+      >
+        {#each contributors as contributor}
+          <div
+          class="flex items-center justify-center my-8"
+          >
+            <a
+            href={contributor.html_url} 
+            class="text-[#00acee]  hover:text-white flex flex-col items-center justify-center"
+            >
+              <img src={contributor.avatar_url} class="rounded-full h-40 w-40" alt="avatar" />
+              <h3>{contributor.login}</h3>
+            </a>
+          </div>
+        {/each}
+      </Carousel>
+    </div>
+  {/if}
+{/if}
+
+<br /><br /><br />
+
 <h1
   class="mt-2 text-center mb-4 text-4xl font-extrabold tracking-tight leading-none  md:text-4xl lg:text-4xl text-white"
 >
