@@ -19,6 +19,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"octokit": "^3.1.1",
+		"svelte-carousel": "^1.0.25",
 		"TagCloud": "^2.3.2"
 	}
 }
