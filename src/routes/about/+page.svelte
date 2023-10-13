@@ -139,6 +139,7 @@
         >
           <a
           href={contributor.html_url} 
+          target="_blank"
           class="text-[#00acee]  hover:text-white flex flex-col items-center justify-center"
           >
             <img src={contributor.avatar_url} class="rounded-full h-40 w-40" alt="avatar" />
@@ -159,6 +160,7 @@
           >
             <a
             href={contributor.html_url} 
+            target="_blank"
             class="text-[#00acee]  hover:text-white flex flex-col items-center justify-center"
             >
               <img src={contributor.avatar_url} class="rounded-full h-40 w-40" alt="avatar" />
@@ -181,6 +183,7 @@
           >
             <a
             href={contributor.html_url} 
+            target="_blank"
             class="text-[#00acee]  hover:text-white flex flex-col items-center justify-center"
             >
               <img src={contributor.avatar_url} class="rounded-full h-40 w-40" alt="avatar" />
@@ -203,6 +206,7 @@
           >
             <a
             href={contributor.html_url} 
+            target="_blank"
             class="text-[#00acee]  hover:text-white flex flex-col items-center justify-center"
             >
               <img src={contributor.avatar_url} class="rounded-full h-40 w-40" alt="avatar" />
