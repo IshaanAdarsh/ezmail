@@ -54,7 +54,7 @@
       id="navbar-default"
     >
       <ul
-        class="flex flex-col p-4 mt-4 border  rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium md:border-0    md:bg-gray-900  border-gray-700"
+        class="flex flex-col p-4 mt-4 border items-center  rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium md:border-0    md:bg-gray-900  border-gray-700"
       >
         <li>
           <a
@@ -83,6 +83,9 @@
             class=" transition hover:text-primary-500 hover:scale-110 block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent md:border-0  md:p-0  text-gray-400   hover:bg-gray-700 md: hover:bg-transparent"
             >About</a
           >
+        </li>
+        <li>
+          <div id="google_translate_element"></div>
         </li>
       </ul>
     </div>
