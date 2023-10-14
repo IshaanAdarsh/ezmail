@@ -142,7 +142,7 @@
   <div class="sm:flex">
     <a href="/" class="flex items-center mb-4 sm:mb-0">
       <img
-        src="https://raw.githubusercontent.com/IshaanAdarsh/Email.help/main/ezmail.png"
+        src="https://github.com/IshaanAdarsh/ezmail/assets/100434702/fa856830-9d12-4ae8-b445-630b7d8ac209"
         class="h-14"
         alt="Flowbite Logo"
       />
