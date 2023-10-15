@@ -9,18 +9,18 @@
   top={150}
   bottom={150}
 >
-  <section class="bg-gray-900">
+  <section class="bg-neutral-100 dark:bg-gray-900">
     <div
       class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 "
     >
       <div class="mr-auto place-self-center lg:col-span-7">
         <h1
-          class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white"
+          class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-800 dark:text-white"
         >
           Experience the ease of Ezmail™
         </h1>
         <p
-          class="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl  text-gray-400"
+          class="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-600 dark:text-gray-400"
         >
           We understand the importance of effective email communication, and
           that's why we've created a platform that makes it easy create, edit
@@ -28,7 +28,7 @@
         </p>
         <a
           href="/prof"
-          class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4  focus:ring-primary-900"
+          class="inline-flex items-center justify-center px-10 py-5 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4  focus:ring-primary-900"
         >
           Get started
           <svg
@@ -48,6 +48,7 @@
         <img
           src="https://ik.imagekit.io/n0uvizrukm2/screenshots/undraw_newspaper_re_syf5_1KjuIsjXme.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1661751080977"
           alt="mockup"
+          style="filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.25));"
         />
       </div>
     </div>
@@ -61,13 +62,13 @@
   top={150}
   bottom={150}
 >
-  <section class="bg-gray-900">
+  <section class="bg-neutral-100 dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
       <div class="max-w-screen-md mb-8 lg:mb-16">
-        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-800 dark:text-white">
           Designed for students
         </h2>
-        <p class="  sm:text-xl  text-gray-400">
+        <p class="  sm:text-xl  text-gray-500 dark:text-gray-400">
           Our website features a library of pre-designed email templates that
           can be customized to fit your needs. Whether you're sending mails to
           Professors, Administration, Alumni or just about anyone, our templates
@@ -95,8 +96,8 @@
               />
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold text-white">Lighting Fast</h3>
-          <p class="text-gray-400">
+          <h3 class="mb-2 text-xl font-bold text-gray-800 dark:text-white">Lighting Fast</h3>
+          <p class="text-gray-500 dark:text-gray-400">
             Our website is built upon the latest in web technology for
             lightning-fast speeds while also being mobile responsive
           </p>
@@ -115,8 +116,8 @@
               /></svg
             >
           </div>
-          <h3 class="mb-2 text-xl font-bold text-white">Professional</h3>
-          <p class="text-gray-400">
+          <h3 class="mb-2 text-xl font-bold text-gray-800 dark:text-white">Professional</h3>
+          <p class="text-gray-500 dark:text-gray-400">
             Writing professional emails can make a good impression on your
             colleagues and clients and can help you establish credibility and
             authority in your field.
@@ -140,8 +141,8 @@
               /></svg
             >
           </div>
-          <h3 class="mb-2 text-xl font-bold text-white">Corporate Ready</h3>
-          <p class="text-gray-400">
+          <h3 class="mb-2 text-xl font-bold text-gray-800 dark:text-white">Corporate Ready</h3>
+          <p class="text-gray-500 dark:text-gray-400">
             On average, 28% of work time is spent on email. Make the most of
             that time by starting early and sending effective emails from today.
           </p>
@@ -161,8 +162,8 @@
               />
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold text-white">Networking</h3>
-          <p class="text-gray-400">
+          <h3 class="mb-2 text-xl font-bold text-gray-800 dark:text-white">Networking</h3>
+          <p class="text-gray-500 dark:text-gray-400">
             Email is a powerful tool to expand your professional network and
             build long-lasting relationships with professionals in your field.
           </p>
@@ -185,10 +186,10 @@
               />
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold text-white">
+          <h3 class="mb-2 text-xl font-bold text-gray-800 dark:text-white">
             Improved Communication
           </h3>
-          <p class="text-gray-400">
+          <p class="text-gray-500 dark:text-gray-400">
             Writing clear and concise emails will help you communicate more
             effectively with colleagues and clients saving time and increasing
             productivity
@@ -211,8 +212,8 @@
               />
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold text-white">Easy to use</h3>
-          <p class="text-gray-400">
+          <h3 class="mb-2 text-xl font-bold text-gray-800 dark:text-white">Easy to use</h3>
+          <p class="text-gray-500 dark:text-gray-400">
             Our website minimizes the time taken to send emails by providing the
             ability to edit and send emails directly.
           </p>
@@ -228,13 +229,13 @@
   top={150}
   bottom={150}
 >
-  <section class="bg-gray-900">
+  <section class="bg-neutral-100 dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
       <div class="mx-auto mb-8 max-w-screen-md lg:mb-16">
-        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-800 dark:text-white">
           Our team
         </h2>
-        <p class="font-light  sm:text-xl text-gray-400">
+        <p class="font-light  sm:text-xl text-gray-600 dark:text-gray-400">
           We're committed to making email communication easy, and we're always
           looking for ways to improve our platform.
           <br /><br />
@@ -258,7 +259,7 @@
             />
           </a>
           <h3
-            class="hover:scale-125 transition mb-1 text-3xl font-bold tracking-tight text-white"
+            class="hover:scale-125 transition mb-1 text-3xl font-bold tracking-tight text-gray-800 dark:text-white"
           >
             <a href="https://linktr.ee/abhinavsrinivas">Abhinav Srinivas</a>
           </h3>
@@ -267,15 +268,19 @@
             <li class="hover:scale-125 transition">
               <a
                 href="https://twitter.com/nown1ne"
-                class=" text-[#00acee]  hover:text-white"
+                class="text-gray-400 dark:text-gray-300 hover:text-black dark:hover:text-white"
               >
-               <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path fill="white" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"
+                  class="w-6 h-6 md:w-6 md:h-6"
+                >
+                  <path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/>
+                </svg>
               </a>
             </li>
             <li class="hover:scale-125 transition">
               <a
                 href="https://github.com/nown1ne"
-                class="hover:text-white text-gray-300"
+                class="text-gray-400 dark:text-gray-300 hover:text-black dark:hover:text-white"
               >
                 <svg
                   class="w-6 h-6 md:w-8 md:h-8"
@@ -301,7 +306,7 @@
             />
           </a>
           <h3
-            class="hover:scale-125 transition mb-1 text-3xl font-bold tracking-tight text-white"
+            class="hover:scale-125 transition mb-1 text-3xl font-bold tracking-tight text-gray-800 dark:text-white"
           >
             <a href="http://linktr.ee/IshaanAdarsh">Ishaan Adarsh</a>
           </h3>
@@ -310,15 +315,19 @@
             <li class="hover:scale-125 transition">
               <a
                 href="https://twitter.com/ishaanad9"
-                class="text-[#00acee]  hover:text-white"
+                class="text-gray-400 dark:text-gray-300 hover:text-black dark:hover:text-white"
               >
-               <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path fill="white" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"
+                  class="w-6 h-6 md:w-6 md:h-6"
+                >
+                  <path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/>
+                </svg>
               </a>
             </li>
             <li class="hover:scale-125 transition">
               <a
                 href="https://github.com/IshaanAdarsh"
-                class="hover:text-white text-gray-300"
+                class="text-gray-400 dark:text-gray-300 hover:text-black dark:hover:text-white"
               >
                 <svg
                   class=" md:w-8 md:h-8 w-6 h-6"
@@ -340,13 +349,13 @@
   </section>
 
 
-  <section class="bg-gray-900">
+  <section class="bg-neutral-100 dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
       <div class="mx-auto mb-8 max-w-screen-md lg:mb-16">
-        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-800 dark:text-white">
           Contact Us
         </h2>
-        <p class="font-light  sm:text-xl text-gray-400">
+        <p class="font-light  sm:text-xl text-gray-500 dark:text-gray-400">
           We're committed to making email communication easy!<br>
           Simplify Your Email Experience - Get in Touch!
           <br /><br />
@@ -355,12 +364,11 @@
           
             <div class="flex-col">  <!--body -->
                 <form class="flex flex-col gap-4 " onsubmit="sendEmail(); reset(); return false;" >
-                    
-                    <input class="rounded-lg py-2 px-5 w-full bg-transparent border text-white" type="text" id="name" placeholder="Your Name" required>
-                    <input class="rounded-lg py-2 px-5 w-full bg-transparent border text-white" type="email" id="email" placeholder="Email id" required>
-                    <input class="rounded-lg py-2 px-5 w-full bg-transparent border text-white" type="text" id="phone" placeholder="Phone No." required>
-                    <textarea class="rounded-lg py-2 px-5 w-full bg-transparent border text-white" id="message" rows="4" placeholder="How can I help you?"></textarea>
-                    <button  class="inline-flex items-center px-4 py-2 bg-primary-700 hover:bg-primary-800 text-white text-lg rounded-lg focus:outline-none hover:cursor-pointer mx-auto mt-5" id="submit">Send <svg
+                    <input class="rounded-lg py-2 px-5 w-full bg-transparent border text-black dark:text-white" type="text" id="name" placeholder="Your Name" required>
+                    <input class="rounded-lg py-2 px-5 w-full bg-transparent border text-black dark:text-white" type="email" id="email" placeholder="Email id" required>
+                    <input class="rounded-lg py-2 px-5 w-full bg-transparent border text-black dark:text-white" type="text" id="phone" placeholder="Phone No." required>
+                    <textarea class="rounded-lg py-2 px-5 w-full bg-transparent border text-black dark:text-white" id="message" rows="4" placeholder="How can I help you?"></textarea>
+                    <button  class="inline-flex items-center px-7 py-3 bg-primary-700 hover:bg-primary-800 text-white text-lg rounded-lg focus:outline-none hover:cursor-pointer mx-auto mt-5" id="submit">Send <svg
                       class="w-5 h-5 ml-2 -mr-1"
                       fill="currentColor"
                       viewBox="0 0 20 20"
@@ -375,10 +383,7 @@
             </div>
        
       </div>
-      <div
-      class="grid gap-16 grid-cols-2"
-      >
-        
+      <div class="grid gap-16 grid-cols-2">
       </div>
     </div>
   </section>

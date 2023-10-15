@@ -12,11 +12,10 @@
     }
 </script> 
 
+<br/>
 <div class="flex items-center justify-center gap-5 md:gap-10">
-
-    
     <div class="">
-        <input bind:value={id}  type="text" id="email" class="border text-gray-900 text-sm md:text-lg rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full px-6 py-4 bg-gray-900 border-primary-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="example@mail.com" required>
+        <input bind:value={id}  type="text" id="email" class="border text-gray-900 text-sm md:text-lg rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full px-6 py-4 bg-neutral-100 dark:bg-gray-900 border-primary-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="example@mail.com" required>
     </div> 
     
     <div on:click={send} class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-primary-400 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-900` group">
@@ -32,6 +31,5 @@
     
 </div>
 
-<h1 class="sm:text-4xl text-3xl text-white mt-10 mb-5 text-center">{data.post.title}</h1>
-<textarea id="text" cols="100" class="mx-auto max-w-full block text-white  text-lg sm:text-2xl sm:leading-loose leading-relaxed p-6 h-screen bg-gray-900">{data.post.content}</textarea>
-
+<h1 class="sm:text-4xl text-3xl text-gray-800 dark:text-white mt-10 mb-5 text-center">{data.post.title}</h1>
+<textarea id="text" cols="100" class="mx-auto max-w-full block text-gray-600 dark:text-white  text-lg sm:text-2xl sm:leading-loose leading-relaxed p-6 h-screen bg-neutral-100 dark:bg-gray-900">{data.post.content}</textarea>
