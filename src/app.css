@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+img {
+  display: inline;
+}
+
 @layer components{
     .input{
         background-color: rgb(17 24 39);
