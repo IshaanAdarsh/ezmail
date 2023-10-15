@@ -171,7 +171,6 @@
       class="mb-2 text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2  ">
         <a href="/about" on:click={toggle}>About</a>
       </div>
-
     </div>
     
   </div>

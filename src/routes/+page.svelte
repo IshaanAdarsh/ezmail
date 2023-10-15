@@ -28,7 +28,7 @@
         </p>
         <a
           href="/prof"
-          class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4  focus:ring-primary-900"
+          class="inline-flex items-center justify-center px-10 py-5 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4  focus:ring-primary-900"
         >
           Get started
           <svg
@@ -355,7 +355,7 @@
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-800 dark:text-white">
           Contact Us
         </h2>
-        <p class="font-light  sm:text-xl text-gray-400">
+        <p class="font-light  sm:text-xl text-gray-500 dark:text-gray-400">
           We're committed to making email communication easy!<br>
           Simplify Your Email Experience - Get in Touch!
           <br /><br />
@@ -364,12 +364,11 @@
           
             <div class="flex-col">  <!--body -->
                 <form class="flex flex-col gap-4 " onsubmit="sendEmail(); reset(); return false;" >
-                    
-                    <input class="rounded-lg py-2 px-5 w-full bg-transparent border text-white" type="text" id="name" placeholder="Your Name" required>
-                    <input class="rounded-lg py-2 px-5 w-full bg-transparent border text-white" type="email" id="email" placeholder="Email id" required>
-                    <input class="rounded-lg py-2 px-5 w-full bg-transparent border text-white" type="text" id="phone" placeholder="Phone No." required>
-                    <textarea class="rounded-lg py-2 px-5 w-full bg-transparent border text-white" id="message" rows="4" placeholder="How can I help you?"></textarea>
-                    <button  class="inline-flex items-center px-4 py-2 bg-primary-700 hover:bg-primary-800 text-white text-lg rounded-lg focus:outline-none hover:cursor-pointer mx-auto mt-5" id="submit">Send <svg
+                    <input class="rounded-lg py-2 px-5 w-full bg-transparent border text-black dark:text-white" type="text" id="name" placeholder="Your Name" required>
+                    <input class="rounded-lg py-2 px-5 w-full bg-transparent border text-black dark:text-white" type="email" id="email" placeholder="Email id" required>
+                    <input class="rounded-lg py-2 px-5 w-full bg-transparent border text-black dark:text-white" type="text" id="phone" placeholder="Phone No." required>
+                    <textarea class="rounded-lg py-2 px-5 w-full bg-transparent border text-black dark:text-white" id="message" rows="4" placeholder="How can I help you?"></textarea>
+                    <button  class="inline-flex items-center px-7 py-3 bg-primary-700 hover:bg-primary-800 text-white text-lg rounded-lg focus:outline-none hover:cursor-pointer mx-auto mt-5" id="submit">Send <svg
                       class="w-5 h-5 ml-2 -mr-1"
                       fill="currentColor"
                       viewBox="0 0 20 20"
@@ -384,10 +383,7 @@
             </div>
        
       </div>
-      <div
-      class="grid gap-16 grid-cols-2"
-      >
-        
+      <div class="grid gap-16 grid-cols-2">
       </div>
     </div>
   </section>
