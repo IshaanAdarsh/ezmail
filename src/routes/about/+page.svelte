@@ -37,23 +37,17 @@
 </script>
 
 <svelte:window bind:innerWidth={ss} />
+<br/>
 <h1
-  class="text-center mb-4 text-6xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl text-white"
+  class="text-center mb-4 text-6xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl text-gray-800 dark:text-white"
 >
   About Us
 </h1>
-<p
-  class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48 text-gray-400"
-/>
-<p
-  class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48 text-gray-400 px-4 block"
-/>
-
-<div class="px-4 md:px-0">
+<div class="px-4 md:px-0 text-gray-500 dark:text-gray-400">
   <ul>
     <li>
       <p
-        class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48 text-gray-400 "
+        class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48"
       >
         We are excited to introduce our new email template website, designed to
         promote a culture of effective and efficient communication among college
@@ -64,7 +58,7 @@
     </li>
     <li>
       <p
-        class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48 text-gray-400"
+        class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48"
       >
         Our templates are designed to be easy to use and customize, allowing
         students to quickly and effectively communicate their needs and ideas.
@@ -74,7 +68,7 @@
     </li>
     <li>
       <p
-        class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48 text-gray-400"
+        class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48"
       >
         We believe that by promoting a culture of effective communication, we
         can help students succeed academically and professionally. Our templates
@@ -84,7 +78,7 @@
     </li>
     <li>
       <p
-        class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48 text-gray-400"
+        class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48"
       >
         We would love for you to check out our website and let us know what you
         think. We are always looking for feedback and suggestions on how to
@@ -93,7 +87,7 @@
     </li>
   </ul>
 </div>
-
+<br/>
 <h1
   class="text-center mb-4 text-6xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl text-white"
 >
@@ -103,9 +97,9 @@
   >
 </h1>
 
-<div class="px-4 md:px-0">
+<div class="px-4 md:px-0 text-gray-500 dark:text-gray-400">
   <p
-    class="mb-2 text-xl font-normal text-center lg:text-xl sm:px-16 xl:px-48 text-gray-400"
+    class="mb-2 text-xl font-normal text-center lg:text-xl sm:px-16 xl:px-48"
   >
     We believe that the key to success in web development is staying up-to-date
     with the latest technologies and best practices. Our tech stack is built on
@@ -140,7 +134,7 @@
           <a
           href={contributor.html_url} 
           target="_blank"
-          class="text-[#00acee]  hover:text-white flex flex-col items-center justify-center"
+          class="text-[#00acee]  hover:text-black dark:hover:text-white flex flex-col items-center justify-center"
           >
             <img src={contributor.avatar_url} class="rounded-full h-40 w-40" alt="avatar" />
             <h3>{contributor.login}</h3>
@@ -161,7 +155,7 @@
             <a
             href={contributor.html_url} 
             target="_blank"
-            class="text-[#00acee]  hover:text-white flex flex-col items-center justify-center"
+            class="text-[#00acee]  hover:text-black dark:hover:text-white flex flex-col items-center justify-center"
             >
               <img src={contributor.avatar_url} class="rounded-full h-40 w-40" alt="avatar" />
               <h3>{contributor.login}</h3>
@@ -184,7 +178,7 @@
             <a
             href={contributor.html_url} 
             target="_blank"
-            class="text-[#00acee]  hover:text-white flex flex-col items-center justify-center"
+            class="text-[#00acee]  hover:text-black dark:hover:text-white flex flex-col items-center justify-center"
             >
               <img src={contributor.avatar_url} class="rounded-full h-40 w-40" alt="avatar" />
               <h3>{contributor.login}</h3>
@@ -207,7 +201,7 @@
             <a
             href={contributor.html_url} 
             target="_blank"
-            class="text-[#00acee]  hover:text-white flex flex-col items-center justify-center"
+            class="text-[#00acee]  hover:text-black dark:hover:text-white flex flex-col items-center justify-center"
             >
               <img src={contributor.avatar_url} class="rounded-full h-40 w-40" alt="avatar" />
               <h3>{contributor.login}</h3>
@@ -230,9 +224,9 @@
   >
 </h1>
 
-<div class="px-4 md:px-0">
+<div class="px-4 md:px-0 text-gray-500 dark:text-gray-400">
   <p
-    class="mb-8 text-lg font-normal text-left lg:text-xl sm:px-16 xl:px-48 text-gray-400 px-4 block"
+    class="mb-8 text-lg font-normal text-left lg:text-xl sm:px-16 xl:px-48 px-4 block"
   >
     We came across a lot of problems while making our project here are a few
     notable ones and how we solved them.<br /><br />
