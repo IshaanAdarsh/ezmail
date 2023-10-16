@@ -273,3 +273,41 @@
     <center> Thanks for reading till the very end. Peace ✌️ </center>
   </p>
 </div>
+<section class="bg-neutral-100 dark:bg-gray-900">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+      <div class="mx-auto mb-8 max-w-screen-md lg:mb-16">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-800 dark:text-white">
+          Contact Us
+        </h2>
+        <p class="font-light  sm:text-xl text-gray-500 dark:text-gray-400">
+          We're committed to making email communication easy!<br>
+          Simplify Your Email Experience - Get in Touch!
+          <br /><br />
+        </p>
+
+          
+            <div class="flex-col">  <!--body -->
+                <form class="flex flex-col gap-4 " onsubmit="sendEmail(); reset(); return false;" >
+                    <input class="rounded-lg py-2 px-5 w-full bg-transparent border text-black dark:text-white" type="text" id="name" placeholder="Your Name" required>
+                    <input class="rounded-lg py-2 px-5 w-full bg-transparent border text-black dark:text-white" type="email" id="email" placeholder="Email id" required>
+                    <input class="rounded-lg py-2 px-5 w-full bg-transparent border text-black dark:text-white" type="text" id="phone" placeholder="Phone No." required>
+                    <textarea class="rounded-lg py-2 px-5 w-full bg-transparent border text-black dark:text-white" id="message" rows="4" placeholder="How can I help you?"></textarea>
+                    <button  class="inline-flex items-center px-7 py-3 bg-primary-700 hover:bg-primary-800 text-white text-lg rounded-lg focus:outline-none hover:cursor-pointer mx-auto mt-5" id="submit">Send <svg
+                      class="w-5 h-5 ml-2 -mr-1"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      ><path
+                        fill-rule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"
+                      /></svg
+                    ></button>
+                </form>  
+            </div>
+       
+      </div>
+      <div class="grid gap-16 grid-cols-2">
+      </div>
+    </div>
+  </section>
