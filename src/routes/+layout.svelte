@@ -145,7 +145,7 @@
     <a href="/" on:click={toggle}>
       <img
         src="https://github.com/IshaanAdarsh/ezmail/assets/100434702/fa856830-9d12-4ae8-b445-630b7d8ac209"
-        class="h-16 inline transition hover:scale-110 "
+        class="h-16 inline transition hover:scale-110 invert dark:invert-0"
         alt="Flowbite Logo"
       />
     </a>
@@ -156,20 +156,36 @@
 
     <div class="flex flex-col gap-10 justify-center text-2xl mt-24 w-full items-center">
       <div transition:fly={{ delay: 100, duration: 1200, x: 900, y:0, opacity: 0.3, easing: quintOut  }} 
-      class="mb-2 text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2  ">
+      class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2  ">
         <a href="/prof" on:click={toggle}>To Professor</a>
       </div>
       <div transition:fly={{ delay: 100, duration: 1200, x: 900, y:0, opacity: 0.3, easing: quintOut  }} 
-      class="mb-2 text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2  ">
+      class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2  ">
         <a href="/admin" on:click={toggle}>To Administration</a>
       </div>
       <div transition:fly={{ delay: 100, duration: 1200, x: 900, y:0, opacity: 0.3, easing: quintOut  }} 
-      class="mb-2 text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2  ">
+      class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2  ">
         <a href="/others" on:click={toggle}>To Alumni</a>
       </div>
       <div transition:fly={{ delay: 100, duration: 1200, x: 900, y:0, opacity: 0.3, easing: quintOut  }}
-      class="mb-2 text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2  ">
+      class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2  ">
         <a href="/about" on:click={toggle}>About</a>
+      </div>
+      <div transition:fly={{ delay: 100, duration: 1200, x: 900, y:0, opacity: 0.3, easing: quintOut  }}
+      class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2  ">
+        <button on:click={toggleColorScheme} class="inline-flex items-center">
+            {#if colorScheme === "dark"}
+              <svg class="w-6 h-6 text-gray-800 dark:text-white mr-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M10 15a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0-11a1 1 0 0 0 1-1V1a1 1 0 0 0-2 0v2a1 1 0 0 0 1 1Zm0 12a1 1 0 0 0-1 1v2a1 1 0 1 0 2 0v-2a1 1 0 0 0-1-1ZM4.343 5.757a1 1 0 0 0 1.414-1.414L4.343 2.929a1 1 0 0 0-1.414 1.414l1.414 1.414Zm11.314 8.486a1 1 0 0 0-1.414 1.414l1.414 1.414a1 1 0 0 0 1.414-1.414l-1.414-1.414ZM4 10a1 1 0 0 0-1-1H1a1 1 0 0 0 0 2h2a1 1 0 0 0 1-1Zm15-1h-2a1 1 0 1 0 0 2h2a1 1 0 0 0 0-2ZM4.343 14.243l-1.414 1.414a1 1 0 1 0 1.414 1.414l1.414-1.414a1 1 0 0 0-1.414-1.414ZM14.95 6.05a1 1 0 0 0 .707-.293l1.414-1.414a1 1 0 1 0-1.414-1.414l-1.414 1.414a1 1 0 0 0 .707 1.707Z"/>
+              </svg>
+              Light
+            {:else}
+              <svg class="w-6 h-6 text-gray-800 dark:text-white mr-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
+                <path d="M17.8 13.75a1 1 0 0 0-.859-.5A7.488 7.488 0 0 1 10.52 2a1 1 0 0 0 0-.969A1.035 1.035 0 0 0 9.687.5h-.113a9.5 9.5 0 1 0 8.222 14.247 1 1 0 0 0 .004-.997Z"/>
+              </svg>
+              Dark
+              {/if}
+          </button>
       </div>
     </div>
     
@@ -180,15 +196,15 @@
   <slot />
 </Trans>
 
-<footer class="mt-5 p-8 rounded-lg shadow md:px-6 md:py-8 bg-gray-900">
+<footer class="mt-5 p-8 rounded-lg shadow md:px-6 md:py-8">
   <div class="sm:flex justify-between ">
     <a href="/" class="flex items-center mb-4 sm:mb-0 ">
       <img
         src="https://github.com/IshaanAdarsh/ezmail/assets/100434702/fa856830-9d12-4ae8-b445-630b7d8ac209"
-        class="h-14 m-auto" alt="Flowbite Logo"/>
+        class="h-14 m-auto invert dark:invert-0" alt="Flowbite Logo"/>
     </a>
     <ul
-      class="px-2 flex flex-wrap items-center justify-center space-x-4 break-words text-center mb-6 text-lg underline underline-offset-2 sm:mb-0 text-gray-400">
+      class="px-2 flex flex-wrap items-center justify-center space-x-4 break-words text-center mb-6 text-lg underline underline-offset-2 sm:mb-0 text-gray-600 dark:text-gray-400">
       <li>
         <a href="prof" class="hover:underline ">To Professor</a>
       </li>
