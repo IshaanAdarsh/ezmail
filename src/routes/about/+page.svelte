@@ -250,7 +250,7 @@
     Our next problem was bringing those strings into the textarea while keeping them
     editable and sending the edited text as the body of the email.<br /><br /><a
       class="underline italic"
-      href="hhttps://stackoverflow.com/questions/44710300/how-to-add-the-content-of-a-textarea-to-the-body-of-an-email"
+      href="https://stackoverflow.com/questions/44710300/how-to-add-the-content-of-a-textarea-to-the-body-of-an-email"
       >The solution</a
     >
     --- This took a lot of time as we landed upon multiple solution each with their
