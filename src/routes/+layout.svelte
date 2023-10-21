@@ -254,7 +254,7 @@
   <slot />
 </Trans>
 
-<footer class="mt-5 p-8 rounded-lg shadow md:px-6 md:py-8">
+<!-- <footer class="mt-5 p-8 rounded-lg shadow md:px-6 md:py-8">
   <div class="sm:flex justify-between ">
     <a href="/" class="flex items-center mb-4 sm:mb-0 ">
       <img
@@ -289,4 +289,38 @@
     >. Made By <a href="https://www.github.com/nown1ne">Abhinav</a> and
     <a href="https://github.com/IshaanAdarsh">Ishaan</a>.
   </span>
+</footer> -->
+<hr class="sm:mx-auto border-gray-700 lg:my-8" />
+<section class="body-font" id="cnt">
+  <div class="container px-5 py-16 mx-auto">
+    <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+      <a href="/" class="flex items-center mb-4 sm:mb-0 ">
+        <img
+          src="https://github.com/IshaanAdarsh/ezmail/assets/100434702/fa856830-9d12-4ae8-b445-630b7d8ac209"
+          class="h-14 m-auto invert dark:invert-0" alt="Flowbite Logo"/>
+      </a>
+     <div class="box6 inline-flex flex-wrap gap-3 pt-2 justify-center">
+    <a href="prof" class="text-white px-3 py-2 bg-primary-700 rounded-[25px]  hover:scale-95 hover:bg-primary-800">To Professor</a>
+    <a href="admin" class="text-white px-3 py-2 bg-primary-700 rounded-[25px] hover:scale-95 hover:bg-primary-800">To Administration</a>
+    <a href="/others" class="text-white px-3 py-2 bg-primary-700 rounded-[25px]  hover:scale-95 hover:bg-primary-800">Alumni and Strangers</a>
+    <a href="about" class="text-white px-3 py-2 bg-primary-700 rounded-[25px] hover:scale-95 hover:bg-primary-800">About</a>
+     </div>
+     <br>
+      <span class="inline-block h-1 w-10 rounded bg-primary-700 mt-8 mb-6"></span>
+     <br>
+    <span class="text-white">Made By <a href="https://www.github.com/nown1ne" class="text-primary-700">Abhinav</a> and
+    <a href="https://github.com/IshaanAdarsh" class="text-primary-700">Ishaan</a>.</span> 
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="box8 h-[8vh] flex justify-center items-center bg-primary-700">
+      <div>
+          <p class="text-white">Copyright &copy 2023, <a
+            href="https://raw.githubusercontent.com/IshaanAdarsh/Email.help/main/ezmail.png"
+            class="hover:underline">Ezmail™</a
+          > </p>
+      </div>
+  </div>
 </footer>
