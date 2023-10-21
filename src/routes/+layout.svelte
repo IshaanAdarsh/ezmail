@@ -253,7 +253,7 @@
 <Trans url={$page.url}>
   <slot />
 </Trans>
-
+<!-- 
 <footer class="mt-5 p-8 rounded-lg shadow md:px-6 md:py-8">
   <div class="sm:flex justify-between ">
     <a href="/" class="flex items-center mb-4 sm:mb-0 ">
@@ -289,4 +289,51 @@
     >. Made By <a href="https://www.github.com/nown1ne">Abhinav</a> and
     <a href="https://github.com/IshaanAdarsh">Ishaan</a>.
   </span>
-</footer>
+</footer> -->
+<hr class="my-6  sm:mx-auto border-gray-700 lg:my-8" />
+<div class="w-full h-[25vh] md:flex text-center">
+  <div class="md:w-[25vw] h-[25vh] text-center text-gray-600 dark:text-gray-400">
+    <a href="/" class="flex items-center mb-4 sm:mb-0 ">
+      <img
+        src="https://github.com/IshaanAdarsh/ezmail/assets/100434702/fa856830-9d12-4ae8-b445-630b7d8ac209"
+        class="h-14 m-auto invert dark:invert-0" alt="Flowbite Logo"/>
+    </a>
+    <p>© 2023 <a
+      href="https://raw.githubusercontent.com/IshaanAdarsh/Email.help/main/ezmail.png"
+      class="hover:underline">Ezmail™</a>.</p>
+    <p>All rights reserved</p>
+  </div>
+  <div class="md:w-[25vw] h-[25vh] text-center">
+    <h3 class="text-[20px]  dark:text-white ">Navigation</h3>
+  <p>  <a href="prof" class="hover:underline text-gray-600  text-lg dark:text-gray-400">To Professor</a></p>
+  <p>  <a href="admin" class="hover:underline text-gray-600  text-lg dark:text-gray-400">To Administration</a> </p>
+  <p> <a href="/others" class="hover:underline text-gray-600 text-lg dark:text-gray-400">Alumni and Strangers</a></p>
+  <p> <a href="about" class="hover:underline text-gray-600  text-lg dark:text-gray-400">About</a></p>
+  </div>
+  <div class="md:w-[25vw] h-[25vh] text-center">
+    <h3 class="text-[20px]  dark:text-white">Made By</h3>
+    <p><a href="https://www.github.com/nown1ne " class="text-gray-600  dark:text-gray-400 hover:underline text-lg">Abhinav</a></p>
+    <p> <a href="https://github.com/IshaanAdarsh " class="text-gray-600  dark:text-gray-400 hover:underline text-lg">Ishaan</a></p>
+  </div>
+  <div class="md:w-[25vw] md:h-[25vh] h-[10vh] text-center">
+   <p> <a
+    href="/prof"
+    class="inline-flex items-center justify-center px-8 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4  focus:ring-primary-900"
+  >
+    Get started
+    <svg
+      class="w-5 h-5 ml-2 -mr-1"
+      fill="currentColor"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+      ><path
+        fill-rule="evenodd"
+        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+        clip-rule="evenodd"
+      /></svg
+    >
+  </a></p>
+
+  </div>
+  
+</div>
