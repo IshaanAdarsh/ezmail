@@ -308,7 +308,7 @@
      <br>
       <span class="inline-block h-1 w-10 rounded bg-primary-700 mt-8 mb-6"></span>
      <br>
-    <span class="text-white">Made By <a href="https://www.github.com/nown1ne" class="text-primary-700">Abhinav</a> and
+    <span class="text-gray-600 dark:text-gray-400">Made By <a href="https://www.github.com/nown1ne" class="text-primary-700">Abhinav</a> and
     <a href="https://github.com/IshaanAdarsh" class="text-primary-700">Ishaan</a>.</span> 
     </div>
   </div>
