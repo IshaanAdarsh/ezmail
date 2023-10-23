@@ -2,48 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    .input{
-        background-color: rgb(17 24 39);
-        display: inline; 
-border-radius: 0.5rem; 
-border-width: 1px; 
-border-style: dashed; 
-border-color: white;
-outline-width: 5px;
-outline-color: rgb(79 70 229);
-    }
-
-    .scroll::-webkit-scrollbar {
-        display: none;
-    }
-
-    a:hover{
-        background-color:aqua;
-    }
-
-    textarea::-webkit-scrollbar {
-      display: none;
-      -ms-overflow-style: none;  
-      scrollbar-width: none; 
-  }
-
-    .tagcloud {
-        font-family: 'Poppins', sans-serif;  
-        font-size: 20px;
-        font-weight: 650;
-        margin-left: 45%;
-      }
-      @media only screen and (max-width: 768px) {
-        .tagcloud{
-            margin-left:25%;
-        }
-    }
-      .tagcloud--item:hover {
-        color: #36454F;
-      }
-      
+img {
+  display: inline;
 }
 
+@layer components {
+  .input {
+    background-color: rgb(17 24 39);
+    display: inline;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: white;
+    outline-width: 5px;
+    outline-color: rgb(79 70 229);
+  }
 
+  .scroll::-webkit-scrollbar {
+    display: none;
+  }
 
+  textarea::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .tagcloud {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 650;
+    margin-left: 45%;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .tagcloud {
+      margin-left: 25%;
+    }
+  }
+
+  .tagcloud--item:hover {
+    color: #36454F;
+  }
+
+}

@@ -6,8 +6,14 @@
 		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
 	</head>
-	<body data-sveltekit-preload-data="hover">
-		<h1 class="a">ezmail</h1>
+	<body data-sveltekit-preload-data="hover" class="bg-neutral-100 dark:bg-gray-900 overflow-x-hidden" >
 		<div style="display: contents">%sveltekit.body%</div>
+
+		<script type="text/javascript"> 
+			function googleTranslateElementInit() {
+				new google.translate.TranslateElement({layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+			}
+		</script>
+		<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 	</body>
 </html>
