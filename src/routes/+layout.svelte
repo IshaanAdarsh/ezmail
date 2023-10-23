@@ -305,7 +305,7 @@
   </div>
   <div class="md:w-[25vw] h-[25vh] text-center">
     <h3 class="text-[20px]  dark:text-white ">Navigation</h3>
-  <p>  <a href="prof" class="hover:underline text-gray-600  text-lg dark:text-gray-400">To Professor</a></p>
+  <p>  <a href="pro" class="hover:underline text-gray-600  text-lg dark:text-gray-400">To Professor</a></p>
   <p>  <a href="admin" class="hover:underline text-gray-600  text-lg dark:text-gray-400">To Administration</a> </p>
   <p> <a href="/others" class="hover:underline text-gray-600 text-lg dark:text-gray-400">Alumni and Strangers</a></p>
   <p> <a href="about" class="hover:underline text-gray-600  text-lg dark:text-gray-400">About</a></p>
