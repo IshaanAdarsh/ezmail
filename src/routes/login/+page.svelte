@@ -89,5 +89,10 @@
         /></svg
       >
     </button>
+    <p>
+      New user? <a href="/signin">
+        <span class="text-blue-500">Register here</span></a
+      >
+    </p>
   </form>
 </body>

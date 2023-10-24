@@ -1,10 +1,5 @@
 <script>
   import Saos from "saos";
-
-  const handleRoute = () => {
-    if (localStorage.getItem("token")) window.location.href = "/prof";
-    else window.location.href = "/login";
-  };
 </script>
 
 <Saos
@@ -31,8 +26,8 @@
           that's why we've created a platform that makes it easy create, edit
           and send professional emails.
         </p>
-        <button
-          on:click={handleRoute}
+        <a
+          href="/prof"
           class="inline-flex items-center justify-center px-8 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-900"
         >
           Get started
@@ -47,7 +42,7 @@
               clip-rule="evenodd"
             /></svg
           >
-        </button>
+        </a>
       </div>
       <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
         <img

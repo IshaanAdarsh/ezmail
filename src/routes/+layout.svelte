@@ -100,10 +100,6 @@
       flag = false;
     }
   };
-  const handleRoute = () => {
-    if (flag) window.location.href = "/prof";
-    else window.location.href = "/login";
-  };
 
   import { clickOutside } from "../click_outside.js";
   import Trans from "../components/trans.svelte";
@@ -156,105 +152,95 @@
       <ul
         class="flex flex-col p-4 mt-4 border items-center rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium md:border-0 border-gray-700"
       >
-        {#if flag}
-          <li>
-            <a
-              href="/prof"
-              class="transition hover:text-primary-500 hover:scale-110 block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:border-0 md:p-0 text-gray-600 dark:text-gray-400 hover:bg-gray-700 md: hover:bg-transparent"
-              >To Professor</a
-            >
-          </li>
-          <li>
-            <a
-              href="/admin"
-              class=" transition hover:text-primary-500 hover:scale-110 block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:border-0 md:p-0 text-gray-600 dark:text-gray-400 hover:bg-gray-700 md: hover:bg-transparent"
-              >To Administration</a
-            >
-          </li>
-          <li>
-            <a
-              href="/others"
-              class=" transition hover:text-primary-500 hover:scale-110 block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:border-0 md:p-0 text-gray-600 dark:text-gray-400 hover:bg-gray-700 md: hover:bg-transparent"
-              >Alumni and Strangers</a
-            >
-          </li>
-          <li>
-            <a
-              href="/about"
-              class="transition hover:text-primary-500 hover:scale-110 block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:border-0 md:p-0 text-gray-600 dark:text-gray-400 hover:bg-gray-700 md: hover:bg-transparent"
-              >About</a
-            >
-          </li>
-          <li>
-            <a
-              href="/"
-              class=" transition hover:text-primary-500 hover:scale-110 block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:border-0 md:p-0 text-gray-600 dark:text-gray-400 hover:bg-gray-700 md: hover:bg-transparent"
-            >
-              <button on:click={clearSession}> logout </button>
-            </a>
-          </li>
-          <li>
-            <div id="google_translate_element" style="display:none;" />
-            <button
-              data-modal-target="language_modal"
-              data-modal-toggle="language_modal"
-              class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              type="button"
-              on:click={toggleLanguageModal}
-            >
-              Change language
-            </button>
-            <div
-              id="language_modal"
-              tabindex="-1"
-              aria-hidden="true"
-              class="absolute top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
-            >
-              <div class="relative w-full top-16 max-h-full">
-                <!-- Modal content -->
+        <!-- {#if flag} -->
+        <li>
+          <a
+            href="/prof"
+            class="transition hover:text-primary-500 hover:scale-110 block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:border-0 md:p-0 text-gray-600 dark:text-gray-400 hover:bg-gray-700 md: hover:bg-transparent"
+            >To Professor</a
+          >
+        </li>
+        <li>
+          <a
+            href="/admin"
+            class=" transition hover:text-primary-500 hover:scale-110 block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:border-0 md:p-0 text-gray-600 dark:text-gray-400 hover:bg-gray-700 md: hover:bg-transparent"
+            >To Administration</a
+          >
+        </li>
+        <li>
+          <a
+            href="/others"
+            class=" transition hover:text-primary-500 hover:scale-110 block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:border-0 md:p-0 text-gray-600 dark:text-gray-400 hover:bg-gray-700 md: hover:bg-transparent"
+            >Alumni and Strangers</a
+          >
+        </li>
+        <li>
+          <a
+            href="/about"
+            class="transition hover:text-primary-500 hover:scale-110 block py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:border-0 md:p-0 text-gray-600 dark:text-gray-400 hover:bg-gray-700 md: hover:bg-transparent"
+            >About</a
+          >
+        </li>
+        <li>
+          <div id="google_translate_element" style="display:none;" />
+          <button
+            data-modal-target="language_modal"
+            data-modal-toggle="language_modal"
+            class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            type="button"
+            on:click={toggleLanguageModal}
+          >
+            Change language
+          </button>
+          <div
+            id="language_modal"
+            tabindex="-1"
+            aria-hidden="true"
+            class="absolute top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full"
+          >
+            <div class="relative w-full top-16 max-h-full">
+              <!-- Modal content -->
+              <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                <!-- Modal header -->
                 <div
-                  class="relative bg-white rounded-lg shadow dark:bg-gray-700"
+                  class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600"
                 >
-                  <!-- Modal header -->
-                  <div
-                    class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600"
+                  <h3
+                    class="text-xl font-semibold text-gray-900 dark:text-white"
                   >
-                    <h3
-                      class="text-xl font-semibold text-gray-900 dark:text-white"
+                    Choose language
+                  </h3>
+                  <button
+                    type="button"
+                    class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                    data-modal-hide="language_modal"
+                    on:click={toggleLanguageModal}
+                  >
+                    <svg
+                      class="w-3 h-3"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 14"
                     >
-                      Choose language
-                    </h3>
-                    <button
-                      type="button"
-                      class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
-                      data-modal-hide="language_modal"
-                      on:click={toggleLanguageModal}
-                    >
-                      <svg
-                        class="w-3 h-3"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 14 14"
-                      >
-                        <path
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
-                        />
-                      </svg>
-                      <span class="sr-only">Close modal</span>
-                    </button>
-                  </div>
-                  <!-- Modal body -->
-                  <div class="p-6 space-y-3 h-100" id="language_list" />
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                      />
+                    </svg>
+                    <span class="sr-only">Close modal</span>
+                  </button>
                 </div>
+                <!-- Modal body -->
+                <div class="p-6 space-y-3 h-100" id="language_list" />
               </div>
             </div>
-          </li>
-        {:else}
+          </div>
+        </li>
+        <!-- {:else}
           <li>
             <a
               href="/login"
@@ -269,12 +255,13 @@
               >Sign in</a
             >
           </li>
-        {/if}
+        {/if} -->
         <li class="inline-flex">
-          <button on:click={toggleColorScheme}>
+          <button class="flex items-center justify-center gap-4">
             {#if colorScheme === "dark"}
               <svg
                 class="w-6 h-6 text-gray-800 dark:text-white"
+                on:click={toggleColorScheme}
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -284,9 +271,19 @@
                   d="M10 15a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0-11a1 1 0 0 0 1-1V1a1 1 0 0 0-2 0v2a1 1 0 0 0 1 1Zm0 12a1 1 0 0 0-1 1v2a1 1 0 1 0 2 0v-2a1 1 0 0 0-1-1ZM4.343 5.757a1 1 0 0 0 1.414-1.414L4.343 2.929a1 1 0 0 0-1.414 1.414l1.414 1.414Zm11.314 8.486a1 1 0 0 0-1.414 1.414l1.414 1.414a1 1 0 0 0 1.414-1.414l-1.414-1.414ZM4 10a1 1 0 0 0-1-1H1a1 1 0 0 0 0 2h2a1 1 0 0 0 1-1Zm15-1h-2a1 1 0 1 0 0 2h2a1 1 0 0 0 0-2ZM4.343 14.243l-1.414 1.414a1 1 0 1 0 1.414 1.414l1.414-1.414a1 1 0 0 0-1.414-1.414ZM14.95 6.05a1 1 0 0 0 .707-.293l1.414-1.414a1 1 0 1 0-1.414-1.414l-1.414 1.414a1 1 0 0 0 .707 1.707Z"
                 />
               </svg>
+              {#if flag}
+                <a href="/login" on:click={clearSession} title="logout">
+                  <i class="fa-regular fa-user fa-xl" style="color: #ffffff;" />
+                </a>
+              {:else}
+                <a href="/login">
+                  <i class="fa-regular fa-user fa-xl" style="color: #ffffff;" />
+                </a>
+              {/if}
             {:else}
               <svg
                 class="w-6 h-6 text-gray-800 dark:text-white"
+                on:click={toggleColorScheme}
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -296,6 +293,15 @@
                   d="M17.8 13.75a1 1 0 0 0-.859-.5A7.488 7.488 0 0 1 10.52 2a1 1 0 0 0 0-.969A1.035 1.035 0 0 0 9.687.5h-.113a9.5 9.5 0 1 0 8.222 14.247 1 1 0 0 0 .004-.997Z"
                 />
               </svg>
+              {#if flag}
+                <a href="/login" on:click={clearSession} title="logout">
+                  <i class="fa-regular fa-user fa-xl" />
+                </a>
+              {:else}
+                <a href="/login">
+                  <i class="fa-regular fa-user fa-xl" />
+                </a>
+              {/if}
             {/if}
           </button>
         </li>
@@ -346,90 +352,78 @@
     </div>
 
     <!--  -->
-    {#if flag}
+    <!-- {#if flag} -->
+    <div
+      class="flex flex-col gap-10 justify-center text-2xl mt-24 w-full items-center"
+    >
       <div
-        class="flex flex-col gap-10 justify-center text-2xl mt-24 w-full items-center"
+        transition:fly={{
+          delay: 100,
+          duration: 1200,
+          x: 900,
+          y: 0,
+          opacity: 0.3,
+          easing: quintOut,
+        }}
+        class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2"
       >
-        <div
-          transition:fly={{
-            delay: 100,
-            duration: 1200,
-            x: 900,
-            y: 0,
-            opacity: 0.3,
-            easing: quintOut,
-          }}
-          class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2"
-        >
-          <a href="/prof" on:click={toggle}>To Professor</a>
-        </div>
-        <div
-          transition:fly={{
-            delay: 100,
-            duration: 1200,
-            x: 900,
-            y: 0,
-            opacity: 0.3,
-            easing: quintOut,
-          }}
-          class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2"
-        >
-          <a href="/admin" on:click={toggle}>To Administration</a>
-        </div>
-        <div
-          transition:fly={{
-            delay: 100,
-            duration: 1200,
-            x: 900,
-            y: 0,
-            opacity: 0.3,
-            easing: quintOut,
-          }}
-          class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2"
-        >
-          <a href="/others" on:click={toggle}>To Alumni</a>
-        </div>
-        <div
-          transition:fly={{
-            delay: 100,
-            duration: 1200,
-            x: 900,
-            y: 0,
-            opacity: 0.3,
-            easing: quintOut,
-          }}
-          class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2"
-        >
-          <a href="/about" on:click={toggle}>About</a>
-        </div>
-        <div
-          transition:fly={{
-            delay: 100,
-            duration: 1200,
-            x: 900,
-            y: 0,
-            opacity: 0.3,
-            easing: quintOut,
-          }}
-          class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2"
-        >
-          <a href="/" on:click={clearSession}>logout</a>
-        </div>
-        <div
-          transition:fly={{
-            delay: 100,
-            duration: 1200,
-            x: 900,
-            y: 0,
-            opacity: 0.3,
-            easing: quintOut,
-          }}
-          class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2"
-        >
-          <button on:click={toggleColorScheme} class="inline-flex items-center">
-            {#if colorScheme === "dark"}
+        <a href="/prof" on:click={toggle}>To Professor</a>
+      </div>
+      <div
+        transition:fly={{
+          delay: 100,
+          duration: 1200,
+          x: 900,
+          y: 0,
+          opacity: 0.3,
+          easing: quintOut,
+        }}
+        class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2"
+      >
+        <a href="/admin" on:click={toggle}>To Administration</a>
+      </div>
+      <div
+        transition:fly={{
+          delay: 100,
+          duration: 1200,
+          x: 900,
+          y: 0,
+          opacity: 0.3,
+          easing: quintOut,
+        }}
+        class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2"
+      >
+        <a href="/others" on:click={toggle}>To Alumni</a>
+      </div>
+      <div
+        transition:fly={{
+          delay: 100,
+          duration: 1200,
+          x: 900,
+          y: 0,
+          opacity: 0.3,
+          easing: quintOut,
+        }}
+        class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2"
+      >
+        <a href="/about" on:click={toggle}>About</a>
+      </div>
+      <div
+        transition:fly={{
+          delay: 100,
+          duration: 1200,
+          x: 900,
+          y: 0,
+          opacity: 0.3,
+          easing: quintOut,
+        }}
+        class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2"
+      >
+        <div class="flex items-center justify-center flex-col space-y-4">
+          {#if colorScheme === "dark"}
+            <button on:click={toggleColorScheme}>
               <svg
-                class="w-6 h-6 text-gray-800 dark:text-white mr-4"
+                class="w-6 h-6 text-gray-800 dark:text-white"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -438,11 +432,16 @@
                 <path
                   d="M10 15a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0-11a1 1 0 0 0 1-1V1a1 1 0 0 0-2 0v2a1 1 0 0 0 1 1Zm0 12a1 1 0 0 0-1 1v2a1 1 0 1 0 2 0v-2a1 1 0 0 0-1-1ZM4.343 5.757a1 1 0 0 0 1.414-1.414L4.343 2.929a1 1 0 0 0-1.414 1.414l1.414 1.414Zm11.314 8.486a1 1 0 0 0-1.414 1.414l1.414 1.414a1 1 0 0 0 1.414-1.414l-1.414-1.414ZM4 10a1 1 0 0 0-1-1H1a1 1 0 0 0 0 2h2a1 1 0 0 0 1-1Zm15-1h-2a1 1 0 1 0 0 2h2a1 1 0 0 0 0-2ZM4.343 14.243l-1.414 1.414a1 1 0 1 0 1.414 1.414l1.414-1.414a1 1 0 0 0-1.414-1.414ZM14.95 6.05a1 1 0 0 0 .707-.293l1.414-1.414a1 1 0 1 0-1.414-1.414l-1.414 1.414a1 1 0 0 0 .707 1.707Z"
                 />
+                Light
               </svg>
-              Light
-            {:else}
+            </button>
+            <a href="/login">
+              <i class="fa-regular fa-user fa-xl" style="color: #ffffff;" />
+            </a>
+          {:else}
+            <button on:click={toggleColorScheme}>
               <svg
-                class="w-6 h-6 text-gray-800 dark:text-white mr-4"
+                class="w-6 h-6 text-gray-800 dark:text-white"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -451,40 +450,18 @@
                 <path
                   d="M17.8 13.75a1 1 0 0 0-.859-.5A7.488 7.488 0 0 1 10.52 2a1 1 0 0 0 0-.969A1.035 1.035 0 0 0 9.687.5h-.113a9.5 9.5 0 1 0 8.222 14.247 1 1 0 0 0 .004-.997Z"
                 />
+                Dark
               </svg>
-              Dark
-            {/if}
-          </button>
+            </button>
+            <a href="/login">
+              <i class="fa-regular fa-user fa-xl" />
+            </a>
+          {/if}
         </div>
       </div>
-      <!--  -->
-    {:else if colorScheme === "dark"}
-      <div
-        transition:fly={{
-          delay: 100,
-          duration: 1200,
-          x: 900,
-          y: 0,
-          opacity: 0.3,
-          easing: quintOut,
-        }}
-        class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2 text-xl"
-      >
-        <a href="/login">Log in</a>
-      </div>
-      <div
-        transition:fly={{
-          delay: 100,
-          duration: 1200,
-          x: 900,
-          y: 0,
-          opacity: 0.3,
-          easing: quintOut,
-        }}
-        class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2 text-xl"
-      >
-        <a href="/signin">Sign in</a>
-      </div>
+    </div>
+    <!--  -->
+    <!-- {#if colorScheme === "dark"}
       <div
         transition:fly={{
           delay: 100,
@@ -526,40 +503,7 @@
           {/if}
         </button>
       </div>
-
-      <!-- <li class="text-white border-2 border-black">
-        <a href="/login">Log in</a>
-      </li>
-      <li class="text-white"><a href="/signin">Sign in</a></li> -->
     {:else}
-      <!-- <li><a href="/login">Log in</a></li>
-      <li><a href="/signin">Sign in</a></li> -->
-      <div
-        transition:fly={{
-          delay: 100,
-          duration: 1200,
-          x: 900,
-          y: 0,
-          opacity: 0.3,
-          easing: quintOut,
-        }}
-        class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2 text-xl"
-      >
-        <a href="/login">Log in</a>
-      </div>
-      <div
-        transition:fly={{
-          delay: 100,
-          duration: 1200,
-          x: 900,
-          y: 0,
-          opacity: 0.3,
-          easing: quintOut,
-        }}
-        class="mb-2 text-gray-500 dark:text-gray-300 hover:bg-primary-500 rounded-lg hover:text-white hover:shadow-lg hover:shadow-gray-500 px-4 py-2 text-xl"
-      >
-        <a href="/signin">Sign in</a>
-      </div>
       <div
         transition:fly={{
           delay: 100,
@@ -601,7 +545,7 @@
           {/if}
         </button>
       </div>
-    {/if}
+    {/if} -->
   </div>
 {/if}
 
@@ -665,55 +609,37 @@
     </p>
     <p>All rights reserved</p>
   </div>
-  {#if flag}
-    <div class="md:w-[25vw] h-[25vh] text-center">
-      <h3 class="text-[20px] dark:text-white">Navigation</h3>
-      <p>
-        <a
-          href="prof"
-          class="hover:underline text-gray-600 text-lg dark:text-gray-400"
-          >To Professor</a
-        >
-      </p>
-      <p>
-        <a
-          href="admin"
-          class="hover:underline text-gray-600 text-lg dark:text-gray-400"
-          >To Administration</a
-        >
-      </p>
-      <p>
-        <a
-          href="/others"
-          class="hover:underline text-gray-600 text-lg dark:text-gray-400"
-          >Alumni and Strangers</a
-        >
-      </p>
-      <p>
-        <a
-          href="about"
-          class="hover:underline text-gray-600 text-lg dark:text-gray-400"
-          >About</a
-        >
-      </p>
-    </div>
-  {:else}<div class="md:w-[25vw] h-[25vh] text-center">
-      <h3 class="text-[20px] dark:text-white">Navigation</h3>
-      <p>
-        <a
-          href="prof"
-          class="hover:underline text-gray-600 text-lg dark:text-gray-400"
-          >Log in</a
-        >
-      </p>
-      <p>
-        <a
-          href="admin"
-          class="hover:underline text-gray-600 text-lg dark:text-gray-400"
-          >Sign in</a
-        >
-      </p>
-    </div>{/if}
+  <div class="md:w-[25vw] h-[25vh] text-center">
+    <h3 class="text-[20px] dark:text-white">Navigation</h3>
+    <p>
+      <a
+        href="prof"
+        class="hover:underline text-gray-600 text-lg dark:text-gray-400"
+        >To Professor</a
+      >
+    </p>
+    <p>
+      <a
+        href="admin"
+        class="hover:underline text-gray-600 text-lg dark:text-gray-400"
+        >To Administration</a
+      >
+    </p>
+    <p>
+      <a
+        href="/others"
+        class="hover:underline text-gray-600 text-lg dark:text-gray-400"
+        >Alumni and Strangers</a
+      >
+    </p>
+    <p>
+      <a
+        href="about"
+        class="hover:underline text-gray-600 text-lg dark:text-gray-400"
+        >About</a
+      >
+    </p>
+  </div>
   <div class="md:w-[25vw] h-[25vh] text-center">
     <h3 class="text-[20px] dark:text-white">Made By</h3>
     <p>
@@ -733,8 +659,8 @@
   </div>
   <div class="md:w-[25vw] md:h-[25vh] h-[10vh] text-center">
     <p>
-      <button
-        on:click={handleRoute}
+      <a
+        href="/prof"
         class="inline-flex items-center justify-center px-8 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-900"
       >
         Get started
@@ -749,7 +675,7 @@
             clip-rule="evenodd"
           /></svg
         >
-      </button>
+      </a>
     </p>
   </div>
 </div>
