@@ -11,7 +11,7 @@
 >
   <section class="bg-neutral-100 dark:bg-gray-900">
     <div
-      class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 "
+      class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
     >
       <div class="mr-auto place-self-center lg:col-span-7">
         <h1
@@ -28,7 +28,7 @@
         </p>
         <a
           href="/prof"
-          class="inline-flex items-center justify-center px-10 py-5 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4  focus:ring-primary-900"
+          class="inline-flex items-center justify-center px-8 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-900"
         >
           Get started
           <svg
@@ -65,25 +65,25 @@
   <section class="bg-neutral-100 dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
       <div class="max-w-screen-md mb-8 lg:mb-16">
-        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-800 dark:text-white">
+        <h2
+          class="mb-4 text-4xl tracking-tight font-extrabold text-gray-800 dark:text-white"
+        >
           Designed for students
         </h2>
-        <p class="  sm:text-xl  text-gray-500 dark:text-gray-400">
+        <p class="  sm:text-xl text-gray-500 dark:text-gray-400">
           Our website features a library of pre-designed email templates that
           can be customized to fit your needs. Whether you're sending mails to
           Professors, Administration, Alumni or just about anyone, our templates
           are designed to help you communicate effectively.
         </p>
       </div>
-      <div
-      class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 md:space-y-0"
-      >
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 md:space-y-0">
         <div>
           <div
-            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full lg:h-12 lg:w-12  bg-primary-900"
+            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full lg:h-12 lg:w-12 bg-primary-900"
           >
             <svg
-              class="w-5 h-5   lg:w-6 lg:h-6  text-primary-300"
+              class="w-5 h-5 lg:w-6 lg:h-6 text-primary-300"
               fill="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +96,9 @@
               />
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold text-gray-800 dark:text-white">Lighting Fast</h3>
+          <h3 class="mb-2 text-xl font-bold text-gray-800 dark:text-white">
+            Lighting Fast
+          </h3>
           <p class="text-gray-500 dark:text-gray-400">
             Our website is built upon the latest in web technology for
             lightning-fast speeds while also being mobile responsive
@@ -104,10 +106,10 @@
         </div>
         <div>
           <div
-            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full lg:h-12 lg:w-12  bg-primary-900"
+            class="flex justify-center items-center mb-4 w-10 h-10 rounded-full lg:h-12 lg:w-12 bg-primary-900"
           >
             <svg
-              class="w-5 h-5   lg:w-6 lg:h-6  text-primary-300"
+              class="w-5 h-5 lg:w-6 lg:h-6 text-primary-300"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -116,7 +118,9 @@
               /></svg
             >
           </div>
-          <h3 class="mb-2 text-xl font-bold text-gray-800 dark:text-white">Professional</h3>
+          <h3 class="mb-2 text-xl font-bold text-gray-800 dark:text-white">
+            Professional
+          </h3>
           <p class="text-gray-500 dark:text-gray-400">
             Writing professional emails can make a good impression on your
             colleagues and clients and can help you establish credibility and
@@ -128,7 +132,7 @@
             class="flex justify-center items-center mb-4 w-10 h-10 rounded-full lg:h-12 lg:w-12 bg-primary-900"
           >
             <svg
-              class="w-5 h-5   lg:w-6 lg:h-6  text-primary-300"
+              class="w-5 h-5 lg:w-6 lg:h-6 text-primary-300"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -141,7 +145,9 @@
               /></svg
             >
           </div>
-          <h3 class="mb-2 text-xl font-bold text-gray-800 dark:text-white">Corporate Ready</h3>
+          <h3 class="mb-2 text-xl font-bold text-gray-800 dark:text-white">
+            Corporate Ready
+          </h3>
           <p class="text-gray-500 dark:text-gray-400">
             On average, 28% of work time is spent on email. Make the most of
             that time by starting early and sending effective emails from today.
@@ -152,7 +158,7 @@
             class="flex justify-center items-center mb-4 w-10 h-10 rounded-full lg:h-12 lg:w-12 bg-primary-900"
           >
             <svg
-              class="w-5 h-5  lg:w-6 lg:h-6 text-primary-300"
+              class="w-5 h-5 lg:w-6 lg:h-6 text-primary-300"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
@@ -162,7 +168,9 @@
               />
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold text-gray-800 dark:text-white">Networking</h3>
+          <h3 class="mb-2 text-xl font-bold text-gray-800 dark:text-white">
+            Networking
+          </h3>
           <p class="text-gray-500 dark:text-gray-400">
             Email is a powerful tool to expand your professional network and
             build long-lasting relationships with professionals in your field.
@@ -212,7 +220,9 @@
               />
             </svg>
           </div>
-          <h3 class="mb-2 text-xl font-bold text-gray-800 dark:text-white">Easy to use</h3>
+          <h3 class="mb-2 text-xl font-bold text-gray-800 dark:text-white">
+            Easy to use
+          </h3>
           <p class="text-gray-500 dark:text-gray-400">
             Our website minimizes the time taken to send emails by providing the
             ability to edit and send emails directly.
@@ -232,10 +242,12 @@
   <section class="bg-neutral-100 dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
       <div class="mx-auto mb-8 max-w-screen-md lg:mb-16">
-        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-800 dark:text-white">
+        <h2
+          class="mb-4 text-4xl tracking-tight font-extrabold text-gray-800 dark:text-white"
+        >
           Our team
         </h2>
-        <p class="font-light  sm:text-xl text-gray-600 dark:text-gray-400">
+        <p class="font-light sm:text-xl text-gray-600 dark:text-gray-400">
           We're committed to making email communication easy, and we're always
           looking for ways to improve our platform.
           <br /><br />
@@ -247,10 +259,8 @@
           > for contributing. ☮
         </p>
       </div>
-      <div
-      class="grid gap-16 md:grid-cols-2"
-      >
-        <div class="text-center  text-gray-400">
+      <div class="grid gap-16 md:grid-cols-2">
+        <div class="text-center text-gray-400">
           <a href="https://linktr.ee/abhinavsrinivas">
             <img
               class="mx-auto mb-4 w-36 h-36 md:w-48 md:h-48 rounded-full"
@@ -270,10 +280,16 @@
                 href="https://twitter.com/nown1ne"
                 class="text-gray-400 dark:text-gray-300 hover:text-black dark:hover:text-white"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1em"
+                  viewBox="0 0 512 512"
                   class="w-6 h-6 md:w-6 md:h-6"
                 >
-                  <path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/>
+                  <path
+                    fill="currentColor"
+                    d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                  />
                 </svg>
               </a>
             </li>
@@ -317,10 +333,16 @@
                 href="https://twitter.com/ishaanad9"
                 class="text-gray-400 dark:text-gray-300 hover:text-black dark:hover:text-white"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="1em"
+                  viewBox="0 0 512 512"
                   class="w-6 h-6 md:w-6 md:h-6"
                 >
-                  <path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/>
+                  <path
+                    fill="currentColor"
+                    d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                  />
                 </svg>
               </a>
             </li>
