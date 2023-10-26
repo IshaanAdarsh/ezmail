@@ -7,7 +7,7 @@
 We are excited to introduce our new email template website, designed to promote a culture of effective and efficient communication among college students. The website offers a wide range of templates for various scenarios, such as requesting information from professors, scheduling meetings, and networking with professionals.
 
 We would love for you to check out our website and let us know what you think. We are always looking for feedback and suggestions on how to improve our service.
-This repository contains the code used to create our website - "Ezmail".
+This repository contains the code used to create our website - "Ezmail". 
 
 <hr>
 
