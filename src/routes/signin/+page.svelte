@@ -1,5 +1,11 @@
 <script>
   let errorMsg = "";
+  function removeUserInput() {
+      document.getElementById("userMail").value = "";
+      document.getElementById("userName").value = "";
+      document.getElementById("password").value = "";
+      document.getElementById("cpassword").value = "";
+  }
   async function handleSubmit(event) {
     event.preventDefault();
 
@@ -30,26 +36,29 @@
           window.location.href = "/";
         } else {
           errorMsg = json.error;
+          removeUserInput();
         }
       } catch (error) {
         errorMsg = error;
+        removeUserInput();
       }
     } else {
-      errorMsg = "passwords did not matched";
+      errorMsg = "passwords did not match";
+      removeUserInput();
     }
   }
 </script>
 
 <body
-  class="sm:w-[50%] w-[95%] h-[70vh] m-auto border-2 border-gray-600 dark:focus:border-gray-500 rounded-xl flex items-center justify-center flex-col gap-4"
+  class="sm:w-[50%] w-[95%] h-[80vh] m-auto border-2 border-gray-600 dark:focus:border-gray-500 rounded-xl flex items-center justify-center flex-col gap-4"
 >
   <h1 class="text-3xl font-extrabold text-gray-800 dark:text-white m-auto">
     {#if errorMsg}
-      <span class="text-red-600">
+      <span class="text-red-600 error">
         {errorMsg}
       </span>
     {:else}
-      Signin
+      Sign Up
     {/if}
   </h1>
   <form
@@ -110,7 +119,7 @@
     <button
       type="submit"
       class="py-2 px-8 inline-flex items-center justify-center text-base font-medium text-center text-white rounded-md bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-900"
-      >signin
+      >Sign Up
       <svg
         class="w-5 h-5 ml-2 -mr-1"
         fill="currentColor"
