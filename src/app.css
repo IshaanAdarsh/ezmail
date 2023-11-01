@@ -49,3 +49,11 @@ img {
     @apply border text-gray-900 text-sm md:text-lg rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-4 bg-neutral-100 dark:bg-gray-900 border-primary-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500;
   }
 }
+
+.error {
+  font-size: 0.7em;
+}
+
+.white-font {
+  color: rgb(255,255,255);
+}
