@@ -3,7 +3,9 @@
     let mail = 'abhinav14863@gmail.com';
     let id = '' ;
     let send = () => {
-        let body = document.getElementById("text").value;
+        var text = document.getElementById('text').value.split('\n');
+        var body = text.join('%0D%0A');
+        let bod = document.getElementById("text").value;
         let email = id;
         let subject = data.post.title;
         window.location = "mailto:" + email + "?subject=" + subject + "&body=" + body;
