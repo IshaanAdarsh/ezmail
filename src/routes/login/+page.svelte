@@ -38,7 +38,7 @@
 </script>
 
 <body
-  class="sm:w-[30%] w-full h-[50vh] m-auto border-2 border-gray-600 dark:focus:border-gray-500 rounded-xl flex items-center justify-center flex-col"
+  class="lg:h-[70vh] lg:w-[30%] sm:w-[40%] w-full h-[50vh] m-auto border-2 border-gray-600 dark:focus:border-gray-500 rounded-xl flex items-center justify-center flex-col"
 >
   <h1 class="text-3xl font-extrabold text-gray-800 dark:text-white m-auto">
     {#if errorMsg}
