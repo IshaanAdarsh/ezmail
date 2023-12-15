@@ -9,7 +9,8 @@ export const posts = [
 		
 		'\nI assure you that I have been keeping up with the course material and I am fully prepared to take the exam. I would be happy to schedule a time that is convenient for you to administer the make-up exam.'+
 		
-		'\n\nThank you for your understanding and support.\n\nSincerely,\n[Your Name]'
+		'\n\nThank you for your understanding and support.\n\nSincerely,\n[Your Name]',
+		tag: ['important' , 'exam' , 'academics']
 	},
 
 	{
@@ -27,7 +28,8 @@ export const posts = [
 			
 			'\nThank you for your understanding and support.'+
 			
-			'\n\nSincerely,\n[Your Name]'
+			'\n\nSincerely,\n[Your Name]',
+			tag: ['important' , 'assignment' , 'academics' , 'extension']
 	},
 
 	{
@@ -40,7 +42,8 @@ export const posts = [
 		
 		'\nI am available to meet at your convenience and I would be happy to schedule a time that works best for you. Please let me know the best time and location for us to meet, and I will make sure to be there.'+
 		
-		'\n\nThank you for your time and support.\n\nSincerely,\n[Your Name]'
+		'\n\nThank you for your time and support.\n\nSincerely,\n[Your Name]',
+		tag: ['important' , 'professional']
 	},
 
 	{
@@ -57,7 +60,8 @@ export const posts = [
 		
 		'\nThank you for your understanding and support.'+
 		
-		'\nSincerely,\n[Your Name]'
+		'\nSincerely,\n[Your Name]',
+		tag: ['important' , 'medical' , 'academics']
 	},
 	{
 		slug: 'recomm',
@@ -69,6 +73,7 @@ export const posts = [
 		
 		'I have attached my resume and a list of my achievements to this email for your reference. If you are willing to write me a letter of recommendation, please let me know what specific information you need from me and the deadline for the letter.'+
 		
-		'\n\nThank you for your time and support.\n\nSincerely,\n[Your Name]'
+		'\n\nThank you for your time and support.\n\nSincerely,\n[Your Name]',
+		tag: ['personal' , 'recommendation' , 'professional']
 	}
 ];

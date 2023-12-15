@@ -15,7 +15,8 @@ export const posts = [
 		
 		'\n\nSincerely,'+
 		'\n[Your Name]'+
-		'\n[Your contact information (phone number and email address)]'
+		'\n[Your contact information (phone number and email address)]',
+		tag: ['request' , 'bona fide' , 'academics']
 	},
 	
 	{
@@ -31,7 +32,8 @@ export const posts = [
 			
 			'\n\nI would greatly appreciate your attention to this matter and look forward to discussing this further with you.'+
 			
-			'\n\nThank you for your time and consideration.\n\nSincerely,\n[Your Name]'
+			'\n\nThank you for your time and consideration.\n\nSincerely,\n[Your Name]',
+			tag: ['issue' , 'academics']
 	},
 
 	{
@@ -47,7 +49,8 @@ export const posts = [
 			
 			'\nI would like to request that the administration consider allocating more resources and support for [specific group or issue]. I would also be willing to meet with you to discuss this issue further and provide more information about the specific impact that the lack of resources and support is having on students.'+
 			
-			'\n\nThank you for your time and consideration.\n\nSincerely,\n[Your Name]'
+			'\n\nThank you for your time and consideration.\n\nSincerely,\n[Your Name]',
+			tag: ['resources' , 'academics']
 	},
 
 	{
@@ -64,7 +67,8 @@ export const posts = [
 		
 		'\nI understand that creating a new program takes a lot of time and resources, but I believe that the benefits of this program would be well worth the investment. I look forward to hearing your thoughts and feedback on this idea.'+
 		
-		'\n\nThank you for your time and consideration.\n\nSincerely,\n[Your Name]'
+		'\n\nThank you for your time and consideration.\n\nSincerely,\n[Your Name]',
+		tag: ['suggestion' , 'academics']
 	},
 
 	{
@@ -81,7 +85,8 @@ export const posts = [
 		
 		'\n\nThank you for your attention to this matter.'+
 		
-		'\n\nSincerely,\n[Your Name]\n[Your dorm and room number]\n[Your contact information (phone number and email address)]'
+		'\n\nSincerely,\n[Your Name]\n[Your dorm and room number]\n[Your contact information (phone number and email address)]',
+		tag: ['hostel' , 'report' , 'academics']
 	},
 
 	{
@@ -105,7 +110,8 @@ export const posts = [
 		
 		'\n\nSincerely,'+
 		'\n[Your Name]'+
-		'\n[Your contact information (phone number and email address)]'
+		'\n[Your contact information (phone number and email address)]',
+		tag: ['complaint' , 'feedback' , 'academics']
 	},
 
 ];
