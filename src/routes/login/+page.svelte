@@ -3,7 +3,7 @@
   function removeUserInput() {
     document.getElementById("userMail").value = "";
     document.getElementById("password").value = "";
-  }
+  };
   async function handleSubmit(event) {
     event.preventDefault();
 
