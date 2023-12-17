@@ -73,7 +73,7 @@
           />
         </div>
         <button type="submit" class="input">Login </button>
-        <p></p>
+        
       </form>
     </div>
     <div class="toggle-container">

@@ -1,10 +1,10 @@
 <script>
   let errorMsg = "";
   function removeUserInput() {
-      document.getElementById("userMail").value = "";
-      document.getElementById("userName").value = "";
-      document.getElementById("password").value = "";
-      document.getElementById("cpassword").value = "";
+    document.getElementById("userMail").value = "";
+    document.getElementById("userName").value = "";
+    document.getElementById("password").value = "";
+    document.getElementById("cpassword").value = "";
   }
   async function handleSubmit(event) {
     event.preventDefault();
@@ -50,84 +50,222 @@
 </script>
 
 <body>
-  <h1 >
-    {#if errorMsg}
-      <span class="text-red-600 error">
-        {errorMsg}
-      </span>
-    {:else}
-      Sign Up
-    {/if}
-  </h1>
-  <form
-    method="POST"
-    class=
-    id="signin-form"
-    on:submit={handleSubmit}
-  >
-    <div >
-      <label for="userMail"
-        >Email:</label
+  <div class="container ">
+    <div class="form-container sign-up">
+      <form
+        method="POST"
+        class="form-container"
+        id="signin-form"
+        on:submit={handleSubmit}
       >
-      <input
-        type="email"
-        id="userMail"
-        name="userMail"
-        placeholder="example@gmail.com"
-        required
-      />
+        <h1 class="heading1">
+          {#if errorMsg}
+            <span class="text-red-600 error">
+              {errorMsg}
+            </span>
+          {:else}
+            Sign Up
+          {/if}
+        </h1>
+
+        <div>
+          <label for="userMail">Email:</label>
+          <input
+            type="email"
+            class="input-box"
+            id="userMail"
+            name="userMail"
+            placeholder="example@gmail.com"
+            required
+          />
+          <label for="userName">Username:</label>
+          <input class="input-box" type="text" id="userName" name="userName" required />
+          <label for="password">Password:</label>
+          <input class="input-box" type="password" id="password" name="password" required />
+
+          <label for="cpassword">Confirm Password:</label>
+          <input class="input-box" type="password" id="cpassword" name="cpassword" required />
+        </div>
+
+        <button type="submit" class="input">Sign Up </button>
+      </form>
     </div>
-    <div class="space-y-2">
-      <label for="userName" 
-        >Username:</label
-      >
-      <input
-        type="text"
-       
-        id="userName"
-        name="userName"
-        required
-      />
-    </div>
-    <div class="space-y-2">
-      <label for="password" 
-        >Password:</label
-      >
-      <input
-        type="password"
-        
-        id="password"
-        name="password"
-        required
-      />
-    </div>
-    <div >
-      <label for="cpassword"
-        >Confirm Password:</label
-      >
-      <input
-        type="password"
-        
-        id="cpassword"
-        name="cpassword"
-        required
-      />
-    </div>
-    <button
-      type="submit"
-      
-      >Sign Up
-      <svg
-        
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-        ><path
-          fill-rule="evenodd"
-          d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-          clip-rule="evenodd"
-        /></svg
-      >
-    </button>
-  </form>
-</body>
+    <div class="toggle-container">
+      <div class="toggle">
+          <div class="toggle-panel toggle-left">
+              <h1 class="heading2">Welcome Back!</h1>
+              <p>Enter your personal details to use all of site features</p>
+              <a href="/login" ><button id="login">Sign In</button></a>
+          </div>
+      </div>
+  </div>
+
+  </div>
+</body 
+>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  #login{
+background-color: #eee;
+color: #512da8;
+}
+
+  body {
+    padding-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .heading2{
+  font-size: x-large; 
+  font-size: xx-large;
+  
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+ 
+.heading1{
+  font-size: xx-large;
+  color: #512da8;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+  .container {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+  }
+
+  .container p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+  }
+
+  .container span {
+    font-size: 12px;
+  }
+
+  .container a {
+    color: #333;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 15px 0 10px;
+  }
+
+  .container button {
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+
+  .container form {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+  }
+
+  .container input {
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+  }
+
+  .form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+  }
+
+
+  .sign-up {
+    left: 0;
+    width: 50%;
+    z-index: 1;
+  }
+
+
+
+  .toggle-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+    border-radius: 150px 0 0 100px;
+    z-index: 1000;
+  }
+
+  .toggle {
+    background-color: #512da8;
+    height: 100%;
+    background: linear-gradient(to right, #5c6bc0, #512da8);
+    color: #fff;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition: all 0.6s ease-in-out;
+  }
+
+ 
+  .toggle-panel {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    text-align: center;
+    top: 0;
+    transform: translateX(0);
+    transition: all 0.6s ease-in-out;
+  }
+
+  .toggle-left {
+    transform: translateX(100%);
+  }
+
+</style>
