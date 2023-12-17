@@ -20,6 +20,8 @@
   },
   "type": "module",
   "dependencies": {
+    "@vercel/analytics": "^1.1.1",
+    "@vercel/speed-insights": "^1.0.2",
     "concurrently": "^8.2.2",
     "octokit": "^3.1.1",
     "puppeteer": "^21.4.0",
