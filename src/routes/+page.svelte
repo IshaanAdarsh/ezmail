@@ -280,6 +280,7 @@
               class="mx-auto mb-4 w-36 h-36 md:w-48 md:h-48 rounded-full"
               src="https://avatars.githubusercontent.com/u/25835195?v=4"
               alt="Abhinav's Avatar"
+              onerror="this.onerror=null; this.src='https://img.freepik.com/free-vector/hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_138676-2387.jpg?w=740&t=st=1703167184~exp=1703167784~hmac=6e1826f5419ddabf49c20f075c7e8ac4adff6ec75810ff1d3c1e285e2a50c5f3';"
             />
           </a>
           <h3
@@ -331,8 +332,9 @@
           <a href="http://linktr.ee/IshaanAdarsh">
             <img
               class="mx-auto mb-4 w-36 h-36 md:w-48 md:h-48 rounded-full"
-              src="https://pbs.twimg.com/profile_images/1507937776511361028/xPkmvqLZ_400x400.jpg"
+              src="https://avatars.githubusercontent.com/u/100434702?v=4"
               alt="Ishaan's Avatar"
+              onerror="this.onerror=null; this.src='https://img.freepik.com/free-vector/happy-man-working-laptop-cartoon-character-people-technology-isolated_138676-3151.jpg?w=740&t=st=1703167205~exp=1703167805~hmac=7cf753a29d1abdb04216a5b01d2b94d518d6c9873773592330e4600b8e737766';"
             />
           </a>
           <h3
