@@ -331,7 +331,7 @@
           <a href="http://linktr.ee/IshaanAdarsh">
             <img
               class="mx-auto mb-4 w-36 h-36 md:w-48 md:h-48 rounded-full"
-              src="https://pbs.twimg.com/profile_images/1507937776511361028/xPkmvqLZ_400x400.jpg"
+              src="https://avatars.githubusercontent.com/u/100434702?v=4"
               alt="Ishaan's Avatar"
             />
           </a>
