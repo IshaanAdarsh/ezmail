@@ -40,7 +40,7 @@
 <br />
 <div class="mt-40">
   <h1
-    class="text-center text-6xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-gray-800 dark:text-white mt-20 mb-24"
+    class="text-center text-6xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-gray-800 dark:text-white mt-20 mb-20"
   >
     About Us
   </h1>
@@ -92,7 +92,7 @@
 <br />
 <div class="mt-40">
   <h1
-    class="text-center mb-4 text-6xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white"
+    class="text-center mb-20 text-6xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white"
   >
     <span
       class="text-transparent bg-clip-text bg-gradient-to-b from-text-gradient-1 via-purple-900 to-violet-600 gray-"
@@ -117,7 +117,7 @@
 
   {#if contributors.length}
     <h1
-      class="my-2 text-center text-4xl font-extrabold tracking-tight leading-none md:text-6xl lg:text-6xl text-white"
+      class="my-2 text-center text-4xl font-extrabold tracking-tight leading-none md:text-6xl lg:text-6xl text-white mb-20"
     >
       <span
         id="problems"
@@ -228,7 +228,7 @@
 
 <div class="my-40">
   <h1
-    class="mt-2 text-center mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-6xl lg:text-6xl text-white"
+    class="mt-2 text-center mb-20 text-4xl font-extrabold tracking-tight leading-none md:text-6xl lg:text-6xl text-white"
   >
     <span
       id="problems"
