@@ -43,6 +43,20 @@
             /></svg
           >
         </a>
+        <form class="flex flex-row align-center my-6" action="">
+          <input type="text" placeholder="Enter keywords..." class="inline-flex tracking-tight  text-gray-800 dark:text-black items-center justify-center px-3 py-2 font-medium text-left rounded-l-lg bg-none border-2 border-r-0 border-gray-500 focus:ring-4 focus:ring-primary-900">
+          <button class="inline-flex items-center justify-center px-3 py-3 text-base font-medium text-center text-white rounded-r-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-900"><svg
+            class="w-5 h-5 "
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+            ><path
+              fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            /></svg
+          ></button>
+        </form>
       </div>
       <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
         <img
@@ -266,6 +280,7 @@
               class="mx-auto mb-4 w-36 h-36 md:w-48 md:h-48 rounded-full"
               src="https://avatars.githubusercontent.com/u/25835195?v=4"
               alt="Abhinav's Avatar"
+              onerror="this.onerror=null; this.src='https://img.freepik.com/free-vector/hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_138676-2387.jpg?w=740&t=st=1703167184~exp=1703167784~hmac=6e1826f5419ddabf49c20f075c7e8ac4adff6ec75810ff1d3c1e285e2a50c5f3';"
             />
           </a>
           <h3
@@ -317,8 +332,9 @@
           <a href="http://linktr.ee/IshaanAdarsh">
             <img
               class="mx-auto mb-4 w-36 h-36 md:w-48 md:h-48 rounded-full"
-              src="https://pbs.twimg.com/profile_images/1507937776511361028/xPkmvqLZ_400x400.jpg"
+              src="https://avatars.githubusercontent.com/u/100434702?v=4"
               alt="Ishaan's Avatar"
+              onerror="this.onerror=null; this.src='https://img.freepik.com/free-vector/happy-man-working-laptop-cartoon-character-people-technology-isolated_138676-3151.jpg?w=740&t=st=1703167205~exp=1703167805~hmac=7cf753a29d1abdb04216a5b01d2b94d518d6c9873773592330e4600b8e737766';"
             />
           </a>
           <h3

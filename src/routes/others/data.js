@@ -17,7 +17,8 @@ export const posts = [
 			'\n\nThank you for your time and consideration. We look forward to hearing from you soon.'+
 			
 			'\n\nBest regards,'+
-			'\n[Your Name]'
+			'\n[Your Name]',
+			tag: ['support' , 'alumni' , 'personal']
 	},
 
 	{
@@ -35,7 +36,8 @@ export const posts = [
 		'\n\nThank you for your time and consideration. I look forward to hearing from you soon.'+
 		
 		'\nBest regards,'+
-		'\n[Your Name]'
+		'\n[Your Name]',
+		tag: ['advice' , 'request' , 'professional']
 	},
 
 
@@ -52,7 +54,8 @@ export const posts = [
 		'\n\nThank you for your time and consideration. I look forward to hearing from you soon.'+
 		
 		'\n\nBest regards,'+
-		'\n[Your Name]'
+		'\n[Your Name]',
+		tag: ['request' , 'personal']
 	},
 	{
 		slug: 'network',
@@ -69,7 +72,8 @@ export const posts = [
 		'\nThank you for your time and consideration. I look forward to hearing from you soon.'+
 		
 		'\n\nBest regards,'+
-		'\n[Your Name]'
+		'\n[Your Name]',
+		tag: ['request' , 'network' , 'alumni']
 	},
 	{
 		slug: 'sorry',
@@ -89,7 +93,8 @@ export const posts = [
 		
 		'\n\nSincerely,'+
 		
-		'\n[your name]'
+		'\n[your name]',
+		tag: ['apology' , 'event' , 'personal']
 	},
 	{
 		slug: 'mentor',
@@ -102,7 +107,8 @@ export const posts = [
 		'The commitment is flexible, and you can choose the level of involvement that works best for you. Whether you want to meet with us regularly or simply answer occasional emails, your time and expertise will be greatly appreciated.\n\n'+
 		'If you are interested in becoming an alumni mentor, please let us know and we can arrange a meeting time that works best for you. We understand that your time is valuable and we would be happy to work around your schedule.\n\n'+
 
-		'\n\nThank you for your time and consideration. We look forward to hearing from you soon.\n\nBest regards,\n[Your Name]'
+		'\n\nThank you for your time and consideration. We look forward to hearing from you soon.\n\nBest regards,\n[Your Name]',
+		tag: ['request' , 'alumni' , 'mentor']
 	},
 	
 ];
