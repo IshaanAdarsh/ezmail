@@ -52,7 +52,7 @@
 <body
   class="sm:w-[50%] w-[95%] h-[80vh] m-auto border-2 border-gray-600 dark:focus:border-gray-500 rounded-xl flex items-center justify-center flex-col gap-4"
 >
-  <h1 class="text-3xl font-extrabold text-gray-800 dark:text-white m-auto">
+  <h1 class="text-3xl font-extrabold text-gray-800 dark:text-white m-auto mt-10">
     {#if errorMsg}
       <span class="text-red-600 error">
         {errorMsg}
