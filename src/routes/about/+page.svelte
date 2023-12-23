@@ -38,10 +38,12 @@
 
 <svelte:window bind:innerWidth={ss} />
 <br />
-<h1
-  class="text-center mb-4 text-6xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-gray-800 dark:text-white"
+<h1 
+class="text-center mb-4 text-6xl  leading-none md:text-5xl lg:text-6xl text-gray-800 dark:text-white"
 >
-  About Us
+<h1
+  class="text-transparent bg-clip-text font-extrabold bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600 mb-8"
+>  About Us
 </h1>
 <div class="px-4 md:px-0 text-gray-500 dark:text-gray-400">
   <ul>
@@ -49,56 +51,51 @@
       <p
         class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48"
       >
-        We are excited to introduce our new email template website, designed to
-        promote a culture of effective and efficient communication among college
-        students. The website offers a wide range of templates for various
-        scenarios, such as requesting information from professors, scheduling
-        meetings, and networking with professionals.
+        Welcome to our exciting new email template website! We're dedicated to
+        fostering effective communication among college students with a variety
+        of templates for different scenarios, such as requesting information,
+        scheduling meetings, and networking with professionals.
       </p>
     </li>
     <li>
       <p
         class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48"
       >
-        Our templates are designed to be easy to use and customize, allowing
-        students to quickly and effectively communicate their needs and ideas.
-        They are also designed to be professional and respectful, promoting a
-        positive image of the college community.
+        Our templates are designed for ease of use and customization, empowering
+        students to communicate effectively while projecting professionalism and
+        respect, enhancing the positive image of the college community.
       </p>
     </li>
     <li>
       <p
         class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48"
       >
-        We believe that by promoting a culture of effective communication, we
-        can help students succeed academically and professionally. Our templates
-        are a great resource for students who are new to the college
-        environment, or who want to improve their communication skills.
+        We believe in promoting a culture of effective communication to help
+        students succeed academically and professionally. Our templates serve as
+        a valuable resource for those new to the college environment or looking
+        to improve their communication skills.
       </p>
     </li>
     <li>
       <p
         class="mb-8 text-lg font-normal text-center lg:text-xl sm:px-16 xl:px-48"
       >
-        We would love for you to check out our website and let us know what you
-        think. We are always looking for feedback and suggestions on how to
-        improve our service.
+        Explore our website and share your thoughts with us. We appreciate your
+        feedback and suggestions as we continually strive to enhance our service.
       </p>
     </li>
   </ul>
-</div>
-<br />
-<h1
-  class="text-center mb-4 text-6xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white"
->
+  </div> 
+
+
   <span
-    class="text-transparent bg-clip-text bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600"
+    class="text-transparent bg-clip-text font-extrabold bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600 "
     >Tech Stack</span
   >
 </h1>
 
 <div class="px-4 md:px-0 text-gray-500 dark:text-gray-400">
-  <p class="mb-2 text-xl font-normal text-center lg:text-xl sm:px-16 xl:px-48">
+  <p class="mb-2 text-xl text-center lg:text-xl sm:px-16 xl:px-48">
     We believe that the key to success in web development is staying up-to-date
     with the latest technologies and best practices. Our tech stack is built on
     a combination of cutting-edge technologies that allow us to create fast,
@@ -107,7 +104,6 @@
   </p>
   <span class="content tagcloud text-2xl mx-auto text-purple-600" />
 </div>
-
 <br /><br /><br />
 
 {#if contributors.length}
