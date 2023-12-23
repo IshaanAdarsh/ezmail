@@ -39,11 +39,10 @@
 <svelte:window bind:innerWidth={ss} />
 <br />
 <h1 
-class="text-center mb-4 text-6xl tracking-tight leading-none md:text-5xl lg:text-6xl text-gray-800 dark:text-white"
+class="text-center mb-4 text-6xl  leading-none md:text-5xl lg:text-6xl text-gray-800 dark:text-white"
 >
-<br />
 <h1
-  class="text-transparent bg-clip-text font-extrabold bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600 my-8"
+  class="text-transparent bg-clip-text font-extrabold bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600 mb-8"
 >  About Us
 </h1>
 <div class="px-4 md:px-0 text-gray-500 dark:text-gray-400">
@@ -90,7 +89,7 @@ class="text-center mb-4 text-6xl tracking-tight leading-none md:text-5xl lg:text
 
 
   <span
-    class="text-transparent bg-clip-text font-extrabold bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600 my-12"
+    class="text-transparent bg-clip-text font-extrabold bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600 "
     >Tech Stack</span
   >
 </h1>
