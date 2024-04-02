@@ -1,4 +1,6 @@
 <script>
+    import { toasts,ToastContainer, FlatToast}  from "svelte-toasts";
+
     export let data;
     let mail = 'abhinav14863@gmail.com';
     let id = '' ;
@@ -9,7 +11,36 @@
         let email = id;
         let subject = data.post.title;
         window.location = "mailto:" + email + "?subject=" + subject + "&body=" + body;
+        
     }
+    const showToast = () => {
+    const toast = toasts.add({
+      title: 'Success',
+      description: 'Copied to Clipboard',
+      duration: 3000, // 0 or negative to avoid auto-remove
+      placement: 'bottom-right',
+      type: 'info',
+      theme: 'dark',
+      placement: 'bottom-right',
+			showProgress: true,
+      type: 'success',
+      theme: 'dark',
+      onClick: () => {},
+      onRemove: () => {},
+      // component: BootstrapToast, // allows to override toast component/template per toast
+    });
+
+  };
+
+    const handlecopy = () => {
+        let postdata=  data.post.content
+        navigator.clipboard.writeText(postdata)
+        // alert("copied to clipboard")
+        showToast()
+        setTimeout(() => setCopied(""), 5000);
+    };
+
+
 </script> 
 
 <br/>
@@ -31,5 +62,11 @@
     
 </div>
 
+<button class="mt-10 rounded-md text-lg text-white w-[12rem] m-auto center dark:bg-white/10 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur flex justify-center items-center cursor-pointer hover:text-slate-300 transition hover:scale-x-[1.01] bg-slate-900" on:click={handlecopy}>
+    Copy to clipboard🗒️
+</button> 
+<ToastContainer let:data={data}>
+    <FlatToast {data}  />
+</ToastContainer>
 <h1 class="sm:text-4xl text-3xl text-gray-800 dark:text-white mt-10 mb-5 text-center">{data.post.title}</h1>
 <textarea id="text" cols="100" class="mx-auto max-w-full block text-gray-600 dark:text-white  text-lg sm:text-2xl sm:leading-loose leading-relaxed p-6 h-screen bg-neutral-100 dark:bg-gray-900">{data.post.content}</textarea>
